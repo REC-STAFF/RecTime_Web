@@ -7,8 +7,91 @@
     text-decoration: none;
 }
 
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: none;  /* ← 黒背景を解除 */
+  position: relative;
+  z-index: 1000;
+}
 
+/* =======================
+   ハンバーガーボタン
+======================= */
+.hamburger-box {
+  display: block; /* PCでも常に表示 */
+  cursor: pointer;
+  z-index: 1001; /* メニューより前面 */
+  margin-left: auto;
+}
 
+.hamburger {
+  width: 25px;
+  height: 20px;
+  position: relative;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  border-radius: 3px;
+  left: 0;
+  transition: 0.3s;
+}
+
+.hamburger span:nth-child(1) { top: 0; }
+.hamburger span:nth-child(2) { top: 8px; }
+.hamburger span:nth-child(3) { top: 16px; }
+
+/* active（×印に変化） */
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+/* =======================
+   ナビゲーション
+======================= */
+
+.header-nav {
+  position: fixed;
+  top: 0;
+  right: -100%; /* 初期は画面外に隠す */
+  width: 250px;
+  height: 100%;
+  background: blue;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding: 60px 20px;
+}
+
+.header-nav ul li {
+  margin: 20px 0;
+}
+
+.header-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* active でスライドイン */
+.header-nav.active {
+  right: 0;
+}
 
 #footer{
     text-align: center;
