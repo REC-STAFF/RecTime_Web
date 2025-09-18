@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.kyougi-main{
+    max-width: 80%;
+    margin: 10rem auto;
+    /* background-color: aqua; */
+}
+
+.kyougi-title {
+    text-align: center;
+    font-size: 3rem;
+    /* background-color: blueviolet; */
+}
+
+.schedule-img{
+    margin: 15rem auto;
+    width: 95%;
+    height: 80vh;
+    background-color: cadetblue;
+
+}
+
+.kyougi-container1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+
+.kyougi-container2{
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+
+.kyougi-box{
+    width: 30%;
+    height: 35vh;
+    background-color: #8b8b8b
+}
+
+.kyougi-chuui-titel{
+    margin-top: 20rem;
+    text-align: center;
+    font-size: 3rem;
+    /* background-color: blueviolet;  */
+    margin-bottom: 5rem;
+}
+
+.kyougi-chuui-text p{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20rem;
+}
