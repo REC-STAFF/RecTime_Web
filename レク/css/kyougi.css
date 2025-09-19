@@ -38,9 +38,33 @@
 }
 
 .kyougi-box{
-    width: 30%;
+    width: 100%;
     height: 35vh;
     background-color: #8b8b8b
+}
+
+.kyougi-box6{
+    width: 30%;
+}
+
+.link{
+  display: block;
+  width: 30%;
+  height: 100%;
+  text-decoration: none;
+}
+
+
+.kyougi-box-title{
+    text-align: center;
+}
+
+.startTime{
+    text-align: center;
+}
+
+.kyougi-place{
+    text-align: center;
 }
 
 .kyougi-chuui-titel{
