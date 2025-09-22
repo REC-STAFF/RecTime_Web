@@ -1,1 +1,136 @@
 @charset "utf-8";
+
+.tunahiki-main{
+    max-width: 80%;
+    margin: 10rem auto;
+    /* background-color: aqua; */
+}
+
+.tunahiki-title{
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.tunahiki-title h2{
+    font-size: 3rem;
+}
+
+.tunahiki-title h3{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.tunahiki-img{
+    margin: 0 auto;
+    margin-top: 15rem;
+    width: 95%;
+    height: 80vh;
+    background-color: cadetblue;
+}
+
+.kyougiShousai-title{
+    margin-top: 15rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.kyougiShousai-container{
+    width: 85%;
+    /* background-color: blanchedalmond; */
+    margin: 0 auto;
+}
+
+.tunahiki-summary h3{
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tunahiki-summary h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.leagueTable-title h3{
+    margin-top: 10rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.leagueTable-img{
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 100%;
+    height: 70vh;
+    background-color: cadetblue;
+}
+
+.tunahiki-NoP h3{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tunahiki-NoP h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.gameRule h3{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+li{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.gameRule ul li {
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+.gameRule ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 4rem;
+}
+
+.tunahiki-attention h3{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.tunahiki-attention li{
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+.point h3{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem; 
+}
+
+.point h4{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.point ul li {
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+.point-img{
+    margin: 0 auto;
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+    width: 95%;
+    height: 80vh;
+    background-color: cadetblue;
+}
