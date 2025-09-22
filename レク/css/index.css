@@ -1,1 +1,60 @@
 @charset "utf-8";
+
+/* 当日の詳細 */
+
+.event-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 75%;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+
+event-info p{
+  line-height: 2.5;
+  font-size: 1.2rem;
+}
+
+.index-cards{
+  position: relative;
+  padding: 1rem;
+  background-color: #020f95;
+}
+
+.index-cards h2{
+  color: #ffb400;
+}
+
+.index-cards p{
+  color: #f5f6fc;
+}
+
+.index-cards a{
+  bottom: 10px;
+  right: 10px;
+  color: #f5f5dc;
+}
+
+.access{
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  background-color: gainsboro;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.access h2{
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.access-inner{
+  display: flex;
+}
+
+.map-text{
+  margin: 1rem auto;
+}

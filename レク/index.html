@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,18 +8,19 @@
   <link rel="stylesheet" href="css/index.css">
   <title>トップページ | RE:CREATION</title>
 </head>
+
 <body>
-  
+
   <div id="container">
 
     <header id="header">
 
-        <h1 class="header-logo">
-          <a href="index.html">
-            <img src="images/">
-          </a>
-        </h1>
-      
+      <h1 class="header-logo">
+        <a href="index.html">
+          <img src="images/">
+        </a>
+      </h1>
+
       <div class="hamburger-box">
         <div class="hamburger">
           <span></span>
@@ -27,7 +29,7 @@
         </div>
       </div>
 
-        <div class="header-box">
+      <div class="header-box">
         <nav class="header-nav">
           <ul>
             <li><a href="index.html">トップページ</a></li>
@@ -41,20 +43,87 @@
             <li><a href="movie.html">ムービー</a></li>
           </ul>
         </nav>
-        </div>
+      </div>
 
     </header>
 
+    <main id="main">
+
+      <section class="event-info">
+        <div class="index-cards program">
+          <h2>競技一覧</h2>
+          <p>
+            当日行う競技の一覧を掲載しています。<br>
+            各競技のルールや実施概要図、得点についてまとめています。
+          </p>
+          <a href="kyougi.html">view more</a>
+        </div>
+        <div class="index-cards player">
+          <h2>選手一覧</h2>
+          <p>
+            各競技に出場する選手を掲載しています。<br>
+            当日スムーズに動けるよう、事前確認をお願いします。
+          </p>
+          <a href="sennsyu.html">view more</a>
+        </div>
+        <div class="index-cards place">
+          <h2>集合場所</h2>
+          <p>会場内で各競技前の集合場所や休憩場所を掲載しています。</p>
+          <a href="basyo.html">view more</a>
+        </div>
+        <div class="index-cards cosplay">
+          <h2>コスプレ大会</h2>
+          <p>
+            コスプレ大会の詳細について掲載しています。
+          </p>
+          <a href="cosplay.html">view more</a>
+        </div>
+        <div class="index-cards ranking">
+          <h2>ランキング</h2>
+          <p>
+            現時点での総合得点上位10位を掲載しています。<br>
+            得点については、競技終了ごとに更新予定です。
+          </p>
+          <a href="ranking.html">view more</a>
+        </div>
+      </section>
+
+      <section class="access">
+        <h2>アクセス</h2>
+        <div class="access-inner">
+          <div class="map"><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.9370592583837!2d136.9000282748988!3d35.18312125717739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376cd2bdb702f%3A0x35c90a62f47bc62f!2z5oSb55-l55yM5L2T6IKy6aSo!5e0!3m2!1sja!2sjp!4v1758358923046!5m2!1sja!2sjp"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="map-text">
+            <h3>ドルフィンズアリーナ<br>
+              <span>(愛知県体育館) </span>
+            </h3>
+            <p>
+              〒460-0032 <br>
+              愛知県名古屋市中区二の丸1-1
+            </p>
+            <h3>電車</h3>
+            <p>名古屋城駅下車 <br>
+              7番出口より徒歩5分
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
 
     <footer id="footer">
-        <p>©2025 RE:CREATION STAFF. ALL rights reserved</p>
+      <p>©2025 RE:CREATION STAFF. ALL rights reserved</p>
     </footer>
 
   </div> <!--container-->
 
 </body>
 
-  <script src="js/jQuery-v3.7.1"></script>
-  <script src="js/script.js"></script>
+<script src="js/jQuery-v3.7.1"></script>
+<script src="js/script.js"></script>
 
 </html>
