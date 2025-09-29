@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+.movie-main {
+    width: 80%;
+    margin: 10rem auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2,h3 {
+    padding-bottom: 3rem;
+}
+
+.movie-content {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #020f95;
+}

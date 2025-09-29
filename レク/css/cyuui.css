@@ -1,1 +1,53 @@
 @charset "utf-8";
+
+.caution-main {
+    width: 80%;
+    margin: 10rem auto;
+}
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+li {
+    font-size: 1.3rem;
+        padding-bottom: 1rem;
+}
+
+.caution-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.event-guidelines {
+    margin: 0 auto;
+    border: solid 2px;
+    border-color: #020f95;
+}
+
+.about-venue {
+    margin: 0 auto;
+    border: solid 2px;
+    border-color: #020f95;
+}
+
+.about-cancel {
+    margin: 0 auto;
+    border: solid 2px;
+    border-color: #020f95;
+}

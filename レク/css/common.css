@@ -12,9 +12,18 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: none;  /* ← 黒背景を解除 */
+  background: none;  
   position: relative;
   z-index: 1000;
+}
+
+.header-logo{
+  display: block;
+}
+
+.header-logo img{
+  width: 195px;
+  height: 45px;
 }
 
 /* =======================
@@ -24,29 +33,32 @@
   display: block; /* PCでも常に表示 */
   cursor: pointer;
   z-index: 1001; /* メニューより前面 */
-  margin-left: auto;
+  /* margin-left: auto; */
+  position: fixed;
+  top: 20px;         /* 画面上からの距離 */
+  right: 30px;       /* 画面右からの距離 */
 }
 
 .hamburger {
-  width: 25px;
-  height: 20px;
+  width: 35px;
+  height: 28px;
   position: relative;
 }
 
 .hamburger span {
   display: block;
   position: absolute;
-  height: 3px;
+  height: 4px;
   width: 100%;
-  background: #000;
+  background: #ffb400;
   border-radius: 3px;
   left: 0;
   transition: 0.3s;
 }
 
 .hamburger span:nth-child(1) { top: 0; }
-.hamburger span:nth-child(2) { top: 8px; }
-.hamburger span:nth-child(3) { top: 16px; }
+.hamburger span:nth-child(2) { top: 10px; }
+.hamburger span:nth-child(3) { top: 20px; }
 
 /* active（×印に変化） */
 
@@ -72,7 +84,7 @@
   right: -100%; /* 初期は画面外に隠す */
   width: 250px;
   height: 100%;
-  background: blue;
+  background: #020f95;
   transition: right 0.3s ease;
   z-index: 1000;
   padding: 60px 20px;
@@ -83,7 +95,7 @@
 }
 
 .header-nav ul li a {
-  color: #fff;
+  color: #f5f6fc;
   text-decoration: none;
   font-size: 18px;
 }
