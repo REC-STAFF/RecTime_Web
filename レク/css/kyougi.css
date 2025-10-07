@@ -67,11 +67,11 @@
     text-align: center;
 }
 
-.kyougi-chuui-titel{
+/* .kyougi-chuui-titel{
     margin-top: 20rem;
     text-align: center;
     font-size: 3rem;
-    /* background-color: blueviolet;  */
+    background-color: blueviolet; 
     margin-bottom: 5rem;
 }
 
@@ -79,7 +79,7 @@
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20rem;
-}
+} */
 
 body {
   height: 100vh;
