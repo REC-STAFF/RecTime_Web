@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
   background: none;  
   position: relative;
   z-index: 1000;
@@ -24,7 +23,10 @@
 .header-logo img{
   width: 195px;
   height: 45px;
+  padding: 10px 20px;
 }
+
+
 
 /* =======================
    ハンバーガーボタン
@@ -49,30 +51,45 @@
   display: block;
   position: absolute;
   height: 4px;
-  width: 100%;
-  background: #ffb400;
+  width: 85%;
+  background: #FEC838;
   border-radius: 3px;
   left: 0;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .hamburger span:nth-child(1) { top: 0; }
-.hamburger span:nth-child(2) { top: 10px; }
-.hamburger span:nth-child(3) { top: 20px; }
+.hamburger span:nth-child(2) { top: 11px; }
+.hamburger span:nth-child(3) { top: 22px; }
+
+/* ホバー時のアニメーション */
+.hamburger:hover span:nth-child(1) {
+  top: 4px; /* 少し下へ */
+}
+
+.hamburger:hover span:nth-child(3) {
+  top: 18.5px; /* 少し上へ */
+}
+
+/* スムーズに動くように */
+.hamburger span {
+  transition: top 0.5s ease, transform 0.5s ease, opacity 0.5s ease;
+}
 
 /* active（×印に変化） */
 
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg);
-  top: 8px;
+  top: 10px;
 }
 .hamburger.active span:nth-child(2) {
   opacity: 0;
 }
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg);
-  top: 8px;
+  top: 10px;
 }
+
 
 /* =======================
    ナビゲーション
@@ -82,12 +99,16 @@
   position: fixed;
   top: 0;
   right: -100%; /* 初期は画面外に隠す */
-  width: 250px;
+  width: 350px;
   height: 100%;
-  background: #020f95;
-  transition: right 0.3s ease;
+  background: rgba(14, 20, 82, 0.7);
+  transition: right 0.5s ease;
   z-index: 1000;
-  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;  /* 縦並び */
+  justify-content: center; /* 縦中央寄せ */
+  align-items: center;     /* 横中央寄せ */
+  gap: 1.5rem;             /* 各項目の間隔 */
 }
 
 .header-nav ul li {
@@ -95,10 +116,24 @@
 }
 
 .header-nav ul li a {
-  color: #f5f6fc;
+  color: #FEC838;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  transition: color 0.5s ease, text-shadow 0.5s ease;
 }
+
+/* ホバー時の光るシャドーエフェクト */
+.header-nav ul li a:hover {
+  color: #FEC838;
+  text-shadow:
+    0 0 4px rgba(254, 200, 56, 0.8),
+    0 0 10px rgba(254, 200, 56, 0.7),
+    0 0 20px rgba(254, 200, 56, 0.6);
+}
+
 
 /* active でスライドイン */
 .header-nav.active {
@@ -109,4 +144,25 @@
     text-align: center;
     font-size: 1.1rem;
     margin-top: auto;
+    padding-bottom: 1rem;
+    color: #FEC838;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background:
+    url("../images/backimg.png") ,
+    radial-gradient(ellipse at center,
+      rgba(45, 17, 159, 1) 0%,
+      rgba(13, 19, 81, 1) 100%);
+ 
+  /* 左が画像、右がグラデーション */
+  background-repeat: repeat, no-repeat;
+  background-position: center top / cover, center;
+  background-size: 100%, cover;
+  background-attachment: scroll, fixed;
+  /* color: white; */
+  margin: 0;
+  min-height: 100%;
 }

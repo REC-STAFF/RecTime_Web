@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+h2{
+    color: #FEC838;
+}
+
+h3{
+    color: #EEF3FF;
+}
+
 .ninnkyaku-main{
     max-width: 80%;
     margin: 10rem auto;
@@ -16,7 +24,7 @@
 }
 
 .ninnkyaku-title h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 3rem;
 }
 
@@ -26,6 +34,12 @@
     width: 95%;
     height: 80vh;
     background-color: cadetblue;
+}
+
+.syuugou-title h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 15rem;
 }
 
 .kyougiShousai-title{

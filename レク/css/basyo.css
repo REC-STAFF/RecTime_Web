@@ -1,1 +1,34 @@
 @charset "utf-8";
+
+.basyo-main{
+    max-width: 80%;
+    margin: 10rem auto;
+    /* background-color: aqua; */
+}
+
+.basyo-title{
+    margin-top: 15rem;
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.basyo-title h2{
+    font-size: 3rem;
+    color: #FEC838;
+}
+
+.basyo-title h3{
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: #EEF3FF;
+}
+
+.basyo-img{
+    margin: 0 auto;
+    margin-top: 15rem;
+    width: 95%;
+    height: 80vh;
+    background-color: cadetblue;
+    border: 2px solid #FEC838;
+}
