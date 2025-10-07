@@ -24,6 +24,7 @@
   height: 80vh;
   background-color: #020f95;
   margin: 0 auto;
+}
 
 .program-main {
   width: 80%;
@@ -53,7 +54,7 @@
  
 .program-section h3 {
   font-size: 2rem;
-
+}
 .program-section h3 {
   font-size: 2rem;
   text-align: center;
@@ -66,6 +67,8 @@
 }
  
 .matchlist {
+  text-align: center;
+}
 
 .program-section h4{
   font-size: 1.5rem;
@@ -92,12 +95,12 @@
   padding-top: 5rem;
 }
  
-.details-text ul,p {
+.details-text ul,p{
   font-size: 1.5rem;
   padding-top: 2rem;
   width: 90%;
   margin: 0 auto;
-
+}
 .matchlist-img {
   width: 90%;
   height: 80vh;
