@@ -1,4 +1,58 @@
 @charset "utf-8";
+/* 
+オレンジ　#FEC838 メインの文字
+ネイビー    #000536 80% rgba(0, 5, 54, 0.8);　ランキング、競技詳細、コスプレ大会、注意事項の枠の中の色
+ネイビー　#171269 出場選手カードの色
+ネイビー　#0E1354 コスプレ大会参加者、結果はこちら、対戦表文字
+ネイビー　#0E1452 70%  nav部分
+ネイビー　#100D4A プルダウンした時？の各クラスが書いてあるところ　　
+ベージュ　#F7D68C 競技一覧、競技詳細のサブタイトル部分
+白　　　#EEF3FF 詳細部分の文字
+
+  */
+
+/* top画像の装飾 */
+.hero-img img{
+  width: 100vw;
+  height: 100vh;
+}
+
+.event-policy {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.policy-text h2{
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: #fec838;
+}
+
+.policy-text p{
+  font-size: 1.5rem;
+  color: #eef3ff;
+}
+
+.about-rec {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.rec-text h2 {
+  font-size: 4rem;
+  color: #fec838;
+}
+
+.rec-text p {
+  font-size: 1rem;
+  color: #eef3ff;
+}
 
 /* 当日の詳細 */
 
@@ -20,7 +74,15 @@ event-info p{
 .index-cards{
   position: relative;
   padding: 1rem;
-  background-color: #020f95;
+  /* background-color: #020f95; */
+  background-image: url(../images/sample.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.index-cards-img {
+  width: 100%;
+  height: auto;
 }
 
 .index-cards h2{
