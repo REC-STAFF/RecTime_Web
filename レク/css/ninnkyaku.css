@@ -31,7 +31,7 @@ h3{
 .ninnkyaku-img{
     margin: 0 auto;
     margin-top: 15rem;
-    width: 95%;
+    width: 85%;
     height: 80vh;
     background-color: cadetblue;
 }
@@ -44,14 +44,31 @@ h3{
 
 .kyougiShousai-title{
     margin-top: 15rem;
+    margin-bottom: 10rem;
     text-align: center;
     font-size: 2rem;
 }
 
-.kyougiShousai-container{
+.kyougiShousai-container{                                                              /*コンテナはここから*/
     width: 85%;
-    /* background-color: blanchedalmond; */
+    padding-bottom: 10rem;
+    border: 0.2rem solid #FEC838;
+    background-color: rgba(0, 5, 54, 0.8);
     margin: 0 auto;
+}
+
+li{
+    color: #EEF3FF;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.kyougiSdhousai-cont-text {
+    color: #FEC838;
+}
+
+.ninnkyaku-summary{
+    margin-left: 5rem;
 }
 
 .ninnkyaku-summary h3{
@@ -63,20 +80,41 @@ h3{
 .ninnkyaku-summary h4{
     margin-top: 1rem;
     font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 3rem;
+    color: #EEF3FF;
 }
 
-.leagueTable-title h3{
+
+.league-title{
+    /* margin: 0 auto; */
     margin-top: 10rem;
+    padding-top: 2rem;
+    width: 100%;
+    height: 8vh;
+    background-color: #FEC838;
+}
+
+
+.leagueTable-link{
+  margin: 0 auto;
+  display: block;
+  width: 27%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.league-title h3{
+    color: #000536;
+    /* margin-top: 10rem; */
     font-size: 2rem;
     text-align: center;
 }
 
-.leagueTable-img{
-    margin: 0 auto;
-    margin-top: 5rem;
-    width: 100%;
-    height: 70vh;
-    background-color: cadetblue;
+
+
+.ninnkyou-NoP{
+    margin-left: 5rem;
 }
 
 .ninnkyou-NoP h3{
@@ -86,8 +124,35 @@ h3{
 }
 
 .ninnkyou-NoP h4{
+    line-height: 3rem;
     margin-top: 1rem;
+    font-weight: normal;
     font-size: 1.5rem;
+    color: #EEF3FF;
+}
+
+
+.detaile{
+    margin-left: 5rem;
+}
+
+.detaile h3{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+.detaile ul li {
+    line-height: 3rem;
+}
+
+.under-text{
+    margin-left: 4rem;
+}
+
+.gameRule{
+    margin-left: 5rem;
 }
 
 .gameRule h3{
@@ -96,31 +161,47 @@ h3{
     font-size: 2rem;
 }
 
-li{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
 
-.gameRule ul li {
-    list-style-type: disc;
-    list-style-position: inside
-}
-
-.gameRule ol li {
+.gameRule ol li{
     list-style-type: decimal;
-    list-style-position: outside;
+    list-style-position: inside;
+}
+
+.gameRule ul li{
+    list-style: none;
     margin-left: 4rem;
 }
 
-.ninnkyou-attention h3{
+.gameRule ul li p{
+    line-height: 3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.attention {
+    margin-left: 5rem;
+}
+
+.attention h3{
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.ninnkyou-attention li{
+.attention ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.attention ul li {
     list-style-type: disc;
-    list-style-position: inside
+    list-style-position: inside;
+    margin-left: 4rem;
+}
+
+
+.point {
+    margin-left: 5rem;
 }
 
 .point h3{
@@ -133,6 +214,7 @@ li{
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    color: #EEF3FF;
 }
 
 .point ul li {
@@ -140,11 +222,4 @@ li{
     list-style-position: inside
 }
 
-.point-img{
-    margin: 0 auto;
-    margin-top: 15rem;
-    margin-bottom: 20rem;
-    width: 95%;
-    height: 80vh;
-    background-color: cadetblue;
-}
+
