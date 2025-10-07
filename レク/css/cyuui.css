@@ -19,6 +19,8 @@ h3{
 }
  
 .event-guidelines ul {
+
+.event-guidelines ul {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
@@ -26,7 +28,7 @@ h3{
  
 .event-guidelines li {
     font-size: 1.3rem;
-    padding-bottom: 1rem;
+        padding-bottom: 1rem;
 }
  
 .caution-title {
@@ -73,4 +75,3 @@ h3{
     font-size: 1.3rem;
     padding-bottom: 1rem;
 }
- 
