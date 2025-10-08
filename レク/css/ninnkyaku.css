@@ -1,188 +1,237 @@
 @charset "utf-8";
 
-h2{
+h2 {
     color: #FEC838;
 }
 
-h3{
+h3 {
+    color: #FEC838;
+}
+
+
+h4 {
     color: #EEF3FF;
 }
 
-.ninnkyaku-main{
+.ninnkyaku-main {
     max-width: 80%;
-    margin: 10rem auto;
+    margin: 10rem 10rem auto;
     /* background-color: aqua; */
 }
 
-.ninnkyaku-title{
+.ninnkyaku-title {
     text-align: center;
     /* background-color: blueviolet; */
 }
 
-.ninnkyaku-title h2{
-    font-size: 3rem;
+.ninnkyaku-title h2 {
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
-.ninnkyaku-title h3{
-    font-size: 1.5rem;
-    margin-top: 3rem;
+.ninnkyaku-title h4 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
 }
 
-.ninnkyaku-img{
+.ninnkyaku-img {
     margin: 0 auto;
-    margin-top: 15rem;
+    margin-top: 12rem;
     width: 85%;
     height: 80vh;
     background-color: cadetblue;
 }
 
-.syuugou-title h3{
-    font-size: 2rem;
+.syuugou-title h3 {
+    font-size: 3rem;
     text-align: center;
     margin-top: 15rem;
+    color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
-.kyougiShousai-title{
-    margin-top: 15rem;
-    margin-bottom: 10rem;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.kyougiShousai-container{                                                              /*コンテナはここから*/
+.ninnkyakubasyo-img {
+    margin: 0 auto;
+    margin-top: 7rem;
     width: 85%;
-    padding-bottom: 10rem;
+    height: 80vh;
+    background-color: cadetblue;
+}
+
+.kyougiShousai-title h3 {
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.kyougiShousai-container {
+    /*コンテナはここから*/
+    width: 85%;
+    padding-bottom: 9rem;
     border: 0.2rem solid #FEC838;
-    background-color: rgba(0, 5, 54, 0.8);
+    background-color: rgba(0, 5, 54, 0.7);
     margin: 0 auto;
 }
 
-li{
+li {
     color: #EEF3FF;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .kyougiSdhousai-cont-text {
     color: #FEC838;
+    font-size: 1.2rem;
 }
 
-.ninnkyaku-summary{
-    margin-left: 5rem;
+.ninnkyaku-summary {
+    margin: 0 7rem;
 }
 
-.ninnkyaku-summary h3{
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+.ninnkyaku-summary h3 {
+    margin-top: 9rem;
+    margin-bottom: 2.1rem;
     font-size: 2rem;
+    padding: .2rem;
 }
 
-.ninnkyaku-summary h4{
+.ninnkyaku-summary h4 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: normal;
-    line-height: 3rem;
+    line-height: 2.2rem;
     color: #EEF3FF;
 }
 
 
-.league-title{
-    /* margin: 0 auto; */
-    margin-top: 10rem;
-    padding-top: 2rem;
+.league-title {
+    margin-top: 7rem;
     width: 100%;
-    height: 8vh;
-    background-color: #FEC838;
+    height: 8.5vh;
+    background:
+        radial-gradient(ellipse at center,
+            rgb(240, 214, 142) 0%,
+            rgb(254, 208, 79) 50%,
+            rgba(254, 200, 56, 1) 100%);
+    box-shadow: 0 6px 0 #c69a20;
+    /* 下方向に濃い影 */
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    /* ← これが必須！ */
+    align-items: center;
+    /* ← 縦方向センター */
+    justify-content: center;
+    /* ← 横方向センター */
 }
 
-
-.leagueTable-link{
-  margin: 0 auto;
-  display: block;
-  width: 27%;
-  height: 100%;
-  text-decoration: none;
+.league-title:hover {
+    transform: translateY(2px);
+    box-shadow: 0 3px 0 #c69a20;
+    filter: brightness(1.05);
+    /* 5%明るく */
 }
 
-.league-title h3{
-    color: #000536;
-    /* margin-top: 10rem; */
-    font-size: 2rem;
+.leagueTable-link {
+    margin: 0 auto;
+    display: block;
+    width: 15%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.league-title h3 {
+    color: #0A094C;
+    font-size: 2.4rem;
     text-align: center;
+    font-weight: 900;
 }
 
 
 
-.ninnkyou-NoP{
-    margin-left: 5rem;
+.ninnkyou-NoP {
+    margin: 0 7rem;
 }
 
-.ninnkyou-NoP h3{
-    margin-top: 5rem;
+.ninnkyou-NoP h3 {
+    margin-top: 7rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.ninnkyou-NoP h4{
-    line-height: 3rem;
-    margin-top: 1rem;
+.ninnkyou-NoP h4 {
+    line-height: 2.2rem;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #EEF3FF;
 }
 
 
-.detaile{
-    margin-left: 5rem;
+.detaile {
+    margin: 0 7rem;
 }
 
-.detaile h3{
+.detaile h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
-
 
 .detaile ul li {
-    line-height: 3rem;
+    line-height: 2.2rem;
 }
 
-.under-text{
-    margin-left: 4rem;
+/* 内容の中の脚数の種類 */
+.detaile-into {
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    display: block;
 }
 
-.gameRule{
-    margin-left: 5rem;
+.under-text {
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
 }
 
-.gameRule h3{
+.gameRule {
+    margin: 0 7rem;
+    line-height: 2.2rem;
+}
+
+.gameRule h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
 
-.gameRule ol li{
+.gameRule ol li {
     list-style-type: decimal;
     list-style-position: inside;
 }
 
-.gameRule ul li{
+.gameRule ul li {
     list-style: none;
-    margin-left: 4rem;
+    margin-left: 1.5rem;
 }
 
-.gameRule ul li p{
-    line-height: 3rem;
-    margin-top: 1rem;
+.gameRule-nagare {
+    margin: 0.9rem 0;
+}
+
+.gameRule ul li p {
+    /* line-height: 2rem; */
+    /* margin-top: 1rem; */
     margin-left: 2rem;
 }
 
 .attention {
-    margin-left: 5rem;
+    margin: 0 7rem;
 }
 
-.attention h3{
+.attention h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -191,35 +240,40 @@ li{
 .attention ol li {
     list-style-type: decimal;
     list-style-position: inside;
+    line-height: 2.2rem;
+}
+
+.attention ul {
+    margin-bottom: 1rem;
 }
 
 .attention ul li {
-    list-style-type: disc;
+    list-style: none;
     list-style-position: inside;
-    margin-left: 4rem;
+    margin-left: 1.5rem;
 }
 
 
 .point {
-    margin-left: 5rem;
+    margin: 0 7rem;
+    line-height: 2.2rem;
 }
 
-.point h3{
+.point h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
-.point h4{
+.point h4 {
     margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    /* font-size: 1.5rem; */
     color: #EEF3FF;
 }
 
 .point ul li {
-    list-style-type: disc;
-    list-style-position: inside
+    list-style-position: inside;
+    list-style: none;
 }
-
 

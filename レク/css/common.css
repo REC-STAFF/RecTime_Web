@@ -155,6 +155,7 @@ body {
     url("../images/backimg.png") ,
     radial-gradient(ellipse at center,
       rgba(45, 17, 159, 1) 0%,
+      rgba(29, 9, 108,1) 50%,
       rgba(13, 19, 81, 1) 100%);
  
   /* 左が画像、右がグラデーション */
