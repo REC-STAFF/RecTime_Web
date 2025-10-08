@@ -273,7 +273,42 @@ li {
 }
 
 .point ul li {
-    list-style-position: inside;
+     list-style-position: inside;
     list-style: none;
 }
+.btn-container{
+    width: 85%;
+    margin: 0 auto;
+}
 
+.back-link{
+    display: block;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.back-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10rem;
+    /* background-color: aqua; */
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-right: 30px solid #FEC838;
+  border-bottom: 30px solid transparent;
+}
+
+.back-btn-text{
+    color: #FEC838;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    text-shadow: 0 0 4px rgba(254, 200, 56, 0.8),0 0 10px rgba(254, 200,56 , 0.7), 0 0 20px rgba(254, 200, 56, 0.6);
+}
