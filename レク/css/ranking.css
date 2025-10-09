@@ -10,17 +10,17 @@
 .ranking-title h2{
     text-align: center;
     font-size: 3rem;
+    color: #FEC838;
     /* background-color: blueviolet; */
 }
 
 .ranking-container{
     width: 85%;
     /* background-color: blanchedalmond; */
-    /* height: 1000px; */
     margin: 0 auto;
 }
 
-.ranking-link{
+/* .ranking-link{
     display: block;
     width: 20%;
     margin: 0 auto;
@@ -30,22 +30,25 @@
     font-size: 1.5rem;
     margin-bottom: 20rem;
     margin-top: 10rem;
-}
+} */
 
 .ranking-kousin h4{
     margin-top: 8rem;
     font-size: 1.2rem;
     text-align: center;
+    color: #EEF3FF;
 }
 
 .ranking-table{
-    padding: 2rem;
-    background-color: aquamarine;
+    box-shadow:  0 0 40px rgba(254, 200, 56, 0.8),0 0 30px rgba(254, 200,56 , 0.7), 0 0 50px rgba(254, 200, 56, 0.6);
+    padding: 6rem 5rem 10rem 5rem;
+    background-color: rgba(0, 5, 54, 0.7);
     width: 45%;
     margin: 0 auto;
     margin-top: 10rem;
-    font-size: 1.5rem;
-    margin-bottom: 20rem;
+    font-size: 1.7rem;
+    color: #EEF3FF;
+    margin-bottom: 20rem;        
 }
 
 .tableR{
@@ -53,13 +56,16 @@
     margin: 0 auto;
 }
 
-.tableR tr{
-    height: 5rem;
-}
-
 .tableR td{
     width: 15rem;
-    
+    height: 7rem;
+    padding: 2rem 0 0 0;
+    border-bottom:  0.1rem  solid #FEC838;                   /*セルとセルの間を消したい*/
+}
+
+
+.under-third{
+    color: #FEC838;
 }
 
 body {
