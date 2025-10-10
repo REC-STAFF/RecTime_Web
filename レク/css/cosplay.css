@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-cos-main{
+.cos-main{
     max-width: 80%;
     margin: 10rem auto;
     /* height: 1000px; */
@@ -8,92 +8,90 @@ cos-main{
 }
 
 .cos-title h2{
+    color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     /* background-color: blueviolet; */
 }
 
-.cosShousai-container{
-    width: 85%;
-    /* background-color: blanchedalmond; */
-    margin: 0 auto;
-}
 
-.cos-summary h3{
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
 
-.cos-summary h4{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.cos-NoP h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.cos-NoP h4{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.judging h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.judging li {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.gradingSystem li{
-    list-style-type: disc;
-    list-style-position: inside;
-    margin-left: 2rem;
-}
-
-.cos-attention h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.cos-attention ul li {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    list-style-type: disc;
-    list-style-position: inside
-}
-
-.cos-attention ol li{
-    list-style-type: decimal;
-    list-style-position: inside;
-    margin-left: 2rem;
-}
-
-.waitingRoom h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.waitingRoom li {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.cos-link-sankasha{
+.cos-link-result{
     display: block;
     width: 20%;
     margin: 0 auto;
     padding: 1.5rem;
-    background-color: rgb(90, 90, 90);
+    background-color: #FEC838;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20rem;
+    margin-top: 10rem;
+}
+
+.cosShousai-container{
+    width: 85%;
+    border: 0.2rem solid #FEC838;
+    background-color: rgba(0, 5, 54, 0.7);
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+h3{
+    color: #FEC838;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-left: 3.5rem;
+}
+
+li{
+color: #EEF3FF;
+margin-left: 4rem;
+}
+
+.cos-attention ul li {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    /* list-style-type: disc; */
+    list-style-position: outside
+}
+
+.cos-attention ol li{
+    font-size: 1.3rem;
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 4rem;
+}
+
+.img{
+    background-color: gray;
+    width: 50%;
+    height: 40vh;
+    margin: 5rem auto;
+}
+
+.waitingRoom li {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.about-cosplay ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem;  
+}
+
+.entry-info ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem; 
+}
+
+.cos-link-sankasha{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #FEC838;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20rem;
@@ -118,3 +116,4 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
