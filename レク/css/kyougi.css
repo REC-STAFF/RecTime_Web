@@ -69,22 +69,22 @@
 }
 
 .kyougi-box-title{
-    position: absolute;
+    /* position: absolute;
     top: 17%;
-    left: 27%;
-    min-width: 50%;
-    font-size: 0.9rem;
+    left: 27%; */
+    /* min-width: 50%; */
+    font-size: 90%;
     /* background-color: rgb(66, 66, 65); */
     color: #FEC838;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    /* padding-top: 5.5rem; */
-    /* text-align: center; */
+    padding-top: 17%;
+    text-align: center;
 }
 
 
 .startTime{
     position: absolute;
-    top: 32%;
+    top: 35%;
     left: 20%;
     /* background-color: aqua; */
     padding-top: 1rem;
@@ -94,13 +94,14 @@
 }
 
 .kyougi-place{
-    position: absolute;
+    /* position: absolute;
     top: 47%;
-    left: 37%;
+    left: 37%; */
     /* background-color: rgb(66, 66, 65); */
     padding-top: 1rem;
     font-size: 1.5rem;
-    /* text-align: center; */
+    text-align: center;
+    padding-top: 15%;
 }
 
 
