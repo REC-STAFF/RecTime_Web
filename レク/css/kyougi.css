@@ -10,6 +10,7 @@
     text-align: center;
     font-size: 3rem;
     color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     /* background-color: blueviolet; */
 }
 
@@ -56,31 +57,51 @@
 .link{
   display: block;
   width: 30%;
+  /* min-width: 370px; */
   height: 100%;
   color: #EEF3FF;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   text-decoration: none;
 }
 
-
+.kyougi-box{
+    position: relative;
+}
 
 .kyougi-box-title{
+    /* position: absolute;
+    top: 17%;
+    left: 27%; */
+    /* min-width: 50%; */
+    font-size: 90%;
+    /* background-color: rgb(66, 66, 65); */
     color: #FEC838;
-    padding-top: 5.5rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    padding-top: 17%;
     text-align: center;
 }
 
 
 .startTime{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    /* background-color: aqua; */
     padding-top: 1rem;
-    text-align: left;
-    padding-left: 7rem;
+    /* text-align: left; */
+    /* padding-left: 7rem; */
     /* text-align: center; */
 }
 
 .kyougi-place{
+    /* position: absolute;
+    top: 47%;
+    left: 37%; */
+    /* background-color: rgb(66, 66, 65); */
     padding-top: 1rem;
     font-size: 1.5rem;
     text-align: center;
+    padding-top: 15%;
 }
 
 
