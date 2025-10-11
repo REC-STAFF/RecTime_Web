@@ -11,143 +11,245 @@
 
   */
 
-/* top画像の装飾 */
-.hero-img img{
-  width: 100vw;
-  height: 100vh;
+index-main {
+  padding: 10rem 0;
 }
 
+/* top画像の装飾 */
+.hero-area img {
+  width: 100%;
+  height: auto;
+  /* object-fit: contain; */
+}
+
+/* 開催方針 */
 .event-policy {
   width: 80%;
-  margin: 0 auto;
-  padding-top: 5rem;
+  margin: 5rem auto;
+  padding-top: 10rem;
   text-align: center;
   justify-content: center;
 }
 
-.policy-text h2{
+.policy-text h2 {
   padding-top: 1rem;
   font-size: 3rem;
   color: #fec838;
 }
 
-.policy-text p{
+.policy-text p {
   font-size: 1.5rem;
   color: #eef3ff;
 }
 
+
+/* レ・クリエイションについて */
 .about-rec {
   width: 80%;
-  margin: 0 auto;
-  padding-top: 5rem;
+  margin: 5rem auto;
+  padding-top: 10rem;
   text-align: center;
   justify-content: center;
 }
 
 .rec-text h2 {
-  font-size: 4rem;
+  padding-top: 1rem;
+  font-size: 3rem;
   color: #fec838;
 }
 
 .rec-text p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #eef3ff;
 }
 
-/* .img-area-top-pc{
-  width: 100vw;
-  height: 100vh;
-}
-
-.img-area-top-pc img{
-  width: 100%;
-  height: 100%;
-} */
-
-.img-area-top-pc img{
-  width: 100%;
+/* NEW */
+.news-section {
+  width: 60%;
   height: auto;
+  margin: 5rem auto;
+  padding-top: 10rem;
+  text-align: center center;
 }
 
-.img-area-top-mo img{
-  display: none;
+.news-list article {
+  display: flex;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #fec838;
+  padding: 1rem;
+  align-items: center;
+  /* justify-content: space-between; */
 }
+
+.news-list h3 {
+  width: 20%;
+  padding-right: 3rem;
+  font-size: 2rem;
+  color: #fec838;
+}
+
+.news-list p {
+  font-size: 1.5rem;
+  color: #eef3ff;
+}
+
+/* 動画 */
+.movie-section {
+  width: 80%;
+  margin: 5rem auto;
+  padding-top: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.movie-title {
+  color: #efc383;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  border-bottom: #efc383 solid 1px;
+}
+
+.movie-link {
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #efc383 solid 1px; 
+}
+
+.movie-link video {
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 /* 当日の詳細 */
 
-.event-info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 75%;
-  margin: 0 auto;
-  padding-bottom: 10rem;
-  text-align: center;
-}
-
-event-info p{
-  line-height: 2.5;
-  font-size: 1.2rem;
-}
-
-.index-cards{
-  position: relative;
-  padding: 1rem;
-  /* background-color: #020f95; */
-  background-image: url(../images/sample.png);
-  background-position: center center;
-  background-size: cover;
-}
-
-.index-cards-img {
-  width: 100%;
+.info-section {
+  width: 80%;
   height: auto;
+  margin: 5rem auto;
+  padding-top: 10rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.index-cards h2{
-  color: #ffb400;
+.cards-row {
+  /* width: 80%; */
+  display: flex;
+  margin: 0 auto;
+  /* justify-content: space-between; */
 }
 
-.index-cards p{
-  color: #f5f6fc;
+.event-cards {
+  display: flex;
+  /* place-items: center; */
+  background-image: url(../images/sample.png);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: auto;  
+  width: 33%;
+  aspect-ratio: 1/1;
 }
 
-.index-cards a{
-  bottom: 10px;
-  right: 10px;
-  color: #f5f5dc;
+.cards-text {
+  width: 80%;
+  height: auto;
+  margin: auto 3rem;
 }
 
-.access{
+.event-cards h2 {
+  width: 80%;
+  color: #fec838;
+  font-size: 1.5rem;
+  border-bottom: solid 1px #fec383;
+  padding-bottom: 1rem;
+}
+
+.event-cards p {
+  width: 80%;
+  color: #eef3ff;
+  padding-top: 1.3rem;
+}
+
+
+/* マップ */
+.access {
   justify-content: center;
   text-align: center;
   width: 80%;
-  background-color: gainsboro;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 10rem 0 20rem 0;
 }
 
-.access h2{
+.access h2 {
+  color: #efc383;
   padding-bottom: 3rem;
+  font-size: 3rem;
+  border-bottom: #efc383 solid 1px;
+}
+
+.access-inner {
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #efc383 solid 1px;
+}
+
+.map {
+  width: 60%;
+}
+
+.map-text {
+  width: 30%;
+  color: #eef3ff;
+  margin: 5rem auto;
+}
+
+.map-text h3 {
   font-size: 2rem;
 }
 
-.access-inner{
-  display: flex;
+.map-text p {
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
-.map-text{
-  margin: 1rem auto;
-}
+@media(max-width:680px) {
 
-@media(max-width:680px){
+  .img-area-top-pc img {
+    display: none;
+  }
 
-.img-area-top-pc img{
-  display: none;
-}
+  .img-area-top-mo img {
+    display: block;
+  }
 
-.img-area-top-mo img{
-  display: block;
-}
+  .cards-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-cards {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .map {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .map-text {
+    width: 80%;
+  }
+
+  .access-inner {
+    flex-direction: column;
+  }
 
 }
