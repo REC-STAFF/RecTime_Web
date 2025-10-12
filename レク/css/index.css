@@ -22,6 +22,11 @@ index-main {
   /* object-fit: contain; */
 }
 
+h2 {
+  font-size: 4rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
 /* 開催方針 */
 .event-policy {
   width: 80%;
@@ -38,6 +43,7 @@ index-main {
 }
 
 .policy-text p {
+  margin-top: 3rem;
   font-size: 1.5rem;
   color: #eef3ff;
 }
@@ -59,6 +65,7 @@ index-main {
 }
 
 .rec-text p {
+  margin-top: 3rem;
   font-size: 1.5rem;
   color: #eef3ff;
 }
@@ -74,7 +81,6 @@ index-main {
 
 .news-list article {
   display: flex;
-  border-top: solid 1px;
   border-bottom: solid 1px;
   border-color: #fec838;
   padding: 1rem;
@@ -96,7 +102,7 @@ index-main {
 
 /* 動画 */
 .movie-section {
-  width: 80%;
+  width: 70%;
   margin: 5rem auto;
   padding-top: 10rem;
   text-align: center;
@@ -104,10 +110,10 @@ index-main {
 }
 
 .movie-title {
-  color: #efc383;
+  color: #fec838;
   padding-bottom: 3rem;
   font-size: 3rem;
-  border-bottom: #efc383 solid 1px;
+  border-bottom: #fec838 solid 1px;
 }
 
 .movie-link {
@@ -115,11 +121,11 @@ index-main {
   padding: 3rem 0 3rem 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: #efc383 solid 1px; 
+  border-bottom: #fec838 solid 1px;
 }
 
 .movie-link video {
-  width: 80%;
+  width: 94%;
   margin: 0 auto;
 }
 
@@ -145,12 +151,12 @@ index-main {
 .event-cards {
   display: flex;
   /* place-items: center; */
-  background-image: url(../images/sample.png);
+  background-image: url(../images/syuusei.png);
   background-position: center;
   background-size: cover;
   justify-content: center;
   align-items: center;
-  height: auto;  
+  height: auto;
   width: 33%;
   aspect-ratio: 1/1;
 }
@@ -164,15 +170,15 @@ index-main {
 .event-cards h2 {
   width: 80%;
   color: #fec838;
-  font-size: 1.5rem;
-  border-bottom: solid 1px #fec383;
+  font-size: 1.7rem;
+  border-bottom: solid 1px #fec838;
   padding-bottom: 1rem;
 }
 
 .event-cards p {
   width: 80%;
   color: #eef3ff;
-  padding-top: 1.3rem;
+  padding-top: 1rem;
 }
 
 
@@ -180,24 +186,24 @@ index-main {
 .access {
   justify-content: center;
   text-align: center;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 1rem 20rem 1rem;
 }
 
 .access h2 {
-  color: #efc383;
+  color: #fec838;
   padding-bottom: 3rem;
-  font-size: 3rem;
-  border-bottom: #efc383 solid 1px;
+  font-size: 4rem;
+  border-bottom: #fec838 solid 1px;
 }
 
 .access-inner {
   width: 100%;
-  padding: 3rem 0 3rem 0;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: #efc383 solid 1px;
+  border-bottom: #fec838 solid 1px;
 }
 
 .map {
@@ -212,11 +218,18 @@ index-main {
 
 .map-text h3 {
   font-size: 2rem;
+  color: #fec838;
+  margin-bottom: 1.5rem;
 }
 
 .map-text p {
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+
+.map-train{
+  margin-top: 1.5rem;
 }
 
 @media(max-width:680px) {
