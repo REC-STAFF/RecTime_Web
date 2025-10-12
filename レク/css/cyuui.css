@@ -20,16 +20,27 @@ h3 {
     color: #fec838;
 }
 
+.caution-title {
+    font-size: 2rem;
+    text-align: center;  
+    text-shadow:rgba(0, 0, 0, 0.4) 3px 3px 5px;
+}
+
 .event-guidelines {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
     margin-bottom: -2px;
+    background-color:rgba(0, 5, 54, 0.7);
+}
+
+.event-guidelines h3 {
+    padding-top: 5rem;
 }
 
 .event-guidelines ul {
     width: 80%;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 2rem;
     color: #EEF3FF;
 }
@@ -41,10 +52,6 @@ h3 {
     list-style-position: inside;
 }
 
-.caution-title {
-    font-size: 2rem;
-    text-align: center;
-}
 
 /* 会場利用の装飾 */
 
@@ -53,11 +60,16 @@ h3 {
     border: solid 2px;
     border-color: #fec838;
     margin-bottom: -2px;
+    background-color:rgba(0, 5, 54, 0.7);
+}
+
+.about-venue {
+    padding-top: 5rem;
 }
 
 .about-venue ul {
     width: 80%;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 2rem;
     color: #EEF3FF;
 }
@@ -75,12 +87,17 @@ h3 {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
+    background-color:rgba(0, 5, 54, 0.7);
+}
+
+.about-cancel h3 {
+    padding-top: 5rem;
 }
 
 
 .about-cancel ul {
     width: 80%;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 2rem;
     color: #EEF3FF;
 }
