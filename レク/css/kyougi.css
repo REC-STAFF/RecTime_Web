@@ -17,8 +17,11 @@
 .schedule-img{
     margin: 15rem auto;
     width: 85%;
-    height: 80vh;
-    background-color: cadetblue;
+    height: 75vh;
+    /* background-color: cadetblue; */
+    background-image: url(../images/schedule-img.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 
