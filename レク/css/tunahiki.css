@@ -39,8 +39,11 @@ h4 {
     margin: 0 auto;
     margin-top: 12rem;
     width: 85%;
-    height: 80vh;
-    background-color: cadetblue;
+    height: 75vh;
+    /* background-color: cadetblue; */
+    background-image: url(../images/about-tunahiki.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .syuugou-title h3 {
@@ -55,8 +58,11 @@ h4 {
     margin: 0 auto;
     margin-top: 7rem;
     width: 85%;
-    height: 80vh;
-    background-color: cadetblue;
+    height: 75vh;
+    /* background-color: cadetblue; */
+    background-image: url(../images/place-tunahiki.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
