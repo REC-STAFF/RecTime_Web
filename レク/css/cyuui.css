@@ -1,75 +1,93 @@
 @charset "utf-8";
- 
+
 .caution-main {
     width: 80%;
     margin: 10rem auto;
 }
- 
- 
+
+
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 5rem;
+    color: #fec838;
 }
- 
-h3{
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 3rem;
-}
- 
-.event-guidelines ul {
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
-}
- 
-.event-guidelines li {
-    font-size: 1.3rem;
-        padding-bottom: 1rem;
-}
- 
-.caution-title {
+
+h3 {
     font-size: 2rem;
     text-align: center;
+    margin: 3rem;
+    color: #fec838;
 }
- 
+
 .event-guidelines {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
+    margin-bottom: -2px;
 }
- 
+
+.event-guidelines ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #EEF3FF;
+}
+
+.event-guidelines li {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.caution-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* 会場利用の装飾 */
+
 .about-venue {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
+    margin-bottom: -2px;
 }
- 
+
 .about-venue ul {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
+    color: #EEF3FF;
 }
- 
-.about-venue li {
-    font-size: 1.3rem;
+
+.about-venue ul li {
+    font-size: 1.5rem;
     padding-bottom: 1rem;
+    list-style-type: disc;
+    list-style-position: inside;
 }
- 
+
+
+/* 中止事項の装飾 */
 .about-cancel {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
 }
- 
+
+
 .about-cancel ul {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
+    color: #EEF3FF;
 }
- 
+
 .about-cancel li {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
+    list-style-type: disc;         
+    list-style-position: inside;
 }
