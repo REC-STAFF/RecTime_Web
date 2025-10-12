@@ -100,7 +100,7 @@ li {
 .img {
     /* background-color: gray; */
     background-image: url(../images/NG-img.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     width: 55%;
     height: 50vh;
