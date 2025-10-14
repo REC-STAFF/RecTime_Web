@@ -34,7 +34,7 @@
 .hamburger-box {
   display: block; /* PCでも常に表示 */
   cursor: pointer;
-  z-index: 1001; /* メニューより前面 */
+  z-index: 9999; /* メニューより前面 */
   /* margin-left: auto; */
   position: fixed;
   top: 20px;         /* 画面上からの距離 */
