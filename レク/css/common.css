@@ -198,5 +198,13 @@ body {
   .header-nav ul li a {
     font-size: 22px;
   }
- 
+
+  #footer{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: auto;
+    padding-bottom: 1rem;
+    color: #FEC838;
+  }
+
   }
