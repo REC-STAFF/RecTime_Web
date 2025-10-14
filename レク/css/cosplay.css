@@ -1,23 +1,21 @@
 @charset "utf-8";
-
+ 
 .cos-main {
     max-width: 80%;
     margin: 10rem auto;
     /* height: 1000px; */
     /* background-color: aqua; */
 }
-
+ 
 .cos-title h2 {
     color: #FEC838;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 17rem;
     /* background-color: blueviolet; */
 }
-
-
-
+ 
 .cos-link-result {
     display: block;
     width: 42%;
@@ -40,96 +38,106 @@
     /* ← なめらかに変化 */
     color: #0A094C;
 }
-
+ 
 .cos-link-result:hover {
     transform: translateY(2px);
     box-shadow: 0 3px 0 #c69a20;
     filter: brightness(1.05);
     /* 5%明るく */
 }
-
-
+ 
+ 
 .cosShousai-container {
     width: 85%;
     border: 0.2rem solid #FEC838;
     background-color: rgba(0, 5, 54, 0.7);
     margin: 0 auto;
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
 }
-
+ 
+.cos-summary h4 {
+  margin: 0 7rem;
+  margin-top: 0.7rem;
+  font-size: 1.3rem;
+  color: #EEF3FF;
+  line-height: 1.8;
+}
+ 
 h3 {
     color: #FEC838;
     margin: 7rem;
     margin-bottom: 3rem;
     font-size: 2rem;
 }
-
+ 
 h4 {
     color: #EEF3FF;
     font-weight: normal;
     font-size: 1.3rem;
     margin-left: 7rem;
 }
-
+ 
 .judge ul li {
     font-size: 1.3rem;
+  line-height: 1.8;
 }
-
+ 
 li {
     color: #EEF3FF;
     margin: 0 7rem;
 }
-
+ 
 .cos-attention ul li {
     margin-top: 0.7rem;
     font-size: 1.3rem;
     /* list-style-type: disc; */
     list-style-position: outside
 }
-
+ 
 .cos-note {
     font-size: 1.1rem;
 }
-
+ 
 .cos-attention ol li {
     font-size: 1.3rem;
     list-style-type: decimal;
     list-style-position: inside;
 }
-
+ 
 .img {
     /* background-color: gray; */
     background-image: url(../images/NG-img.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     width: 55%;
     height: 50vh;
     margin: 5rem auto;
 }
-
+ 
 .waitingRoom li {
     margin-top: 1.2rem;
     font-size: 1.3rem;
 }
-
+ 
 .cos-waittitle li{
     margin-top: 0.5rem;
 }
-
+ 
 .cos-waiting{
     margin-left: 1rem;
 }
-
+ 
 .about-cosplay ul li {
     margin-top: 0.7rem;
     font-size: 1.3rem;
 }
-
+ 
 .entry-info ul li {
     margin-top: 0.7rem;
     font-size: 1.3rem;
 }
-
+ 
 .cos-link-sankasha {
     display: block;
     width: 42%;
@@ -152,33 +160,89 @@ li {
     /* ← なめらかに変化 */
     color: #0A094C;
 }
-
+ 
 .cos-link-sankasha:hover {
     transform: translateY(2px);
     box-shadow: 0 3px 0 #c69a20;
     filter: brightness(1.05);
     /* 5%明るく */
 }
-
+ 
 .commentout{
     font-size: 1.1rem;
 }
-
-body {
-    height: 100vh;
+ 
+@media screen and (max-width: 680px) {
+ 
+  .cos-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
+ 
+  .cos-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+  }
+ 
+  h3 {
+    font-size: 1.4rem;
+    margin: 3rem 0 1.5rem 0;
+  }
+ 
+  h4,
+  li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-left: 0;
+  }
+ 
+  .cosShousai-container {
+    width: 90%;
+    padding: 1.2rem;
+  }
+ 
+  .cos-summary h4,
+  .cos-NoP h4,
+  .judge ul li,
+  .cos-attention ul li,
+  .cos-attention ol li,
+  .waitingRoom li {
+    font-size: 1rem;
+    line-height: 1.8rem;
     margin: 0;
-    background:
-        url("../images/backimg.png"),
-        radial-gradient(ellipse at center,
-            rgba(45, 17, 159, 1) 0%,
-            rgba(13, 19, 81, 1) 100%);
-
-    /* 左が画像、右がグラデーション */
-    background-repeat: repeat, no-repeat;
-    background-position: center top / cover, center;
-    background-size: 100%, cover;
-    background-attachment: scroll, fixed;
-    /* color: white; */
-    margin: 0;
-    min-height: 100%;
+  }
+ 
+  .img {
+    width: 100%;
+    height: 40vh;
+    margin: 5rem auto;
+  }
+ 
+  .cos-waittitle,
+  .cos-waiting {
+    margin-left: 0;
+  }
+ 
+  .cos-waittitle li,
+  .cos-waiting li {
+    margin-top: 0.5rem;
+  }
+ 
+  .commentout {
+    font-size: 0.9rem;
+  }
+ 
+  .cos-link-result,
+  .cos-link-sankasha {
+    width: 60%;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+  }
+ 
+  .last-margin{
+    margin-bottom: 3rem;
+  }
 }
+ 

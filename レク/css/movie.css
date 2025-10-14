@@ -12,11 +12,24 @@
 
 h2,h3 {
     padding-bottom: 3rem;
+    color: #fec838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.movie-section {
+    margin: 0 auto;
 }
 
 .movie-content {
+    display: flex;
     width: 80%;
-    height: 80vh;
+    height: auto;
     margin: 0 auto;
-    background-color: #020f95;
+    align-items: center;
+    text-align: center;
+}
+
+.movie-content video {
+    width: 94%;
+    margin: 0 auto;
 }

@@ -1,12 +1,12 @@
 @charset "utf-8";
-
+ 
 .ranking-main {
     max-width: 80%;
     margin: 10rem auto;
     /* height: 1000px; */
     /* background-color: aqua; */
 }
-
+ 
 .ranking-title h2 {
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
@@ -14,13 +14,13 @@
     color: #FEC838;
     /* background-color: blueviolet; */
 }
-
+ 
 .ranking-container {
     width: 85%;
     /* background-color: blanchedalmond; */
     margin: 0 auto;
 }
-
+ 
 /* .ranking-link{
     display: block;
     width: 20%;
@@ -32,14 +32,14 @@
     margin-bottom: 20rem;
     margin-top: 10rem;
 } */
-
+ 
 .ranking-kousin h4 {
     margin-top: 5rem;
     font-size: 1.2rem;
     text-align: center;
     color: #EEF3FF;
 }
-
+ 
 .ranking-table {
     border: 0.07rem solid #FEC838;
     box-shadow: 0 0 40px rgba(254, 200, 56, 0.8), 0 0 30px rgba(254, 200, 56, 0.7), 0 0 50px rgba(254, 200, 56, 0.6);
@@ -52,12 +52,12 @@
     color: #EEF3FF;
     margin-bottom: 20rem;
 }
-
+ 
 .tableR {
     text-align: center;
     margin: 0 auto;
 }
-
+ 
 .tableR td {
     width: 15rem;
     height: 7rem;
@@ -65,27 +65,27 @@
     border-bottom: 0.1rem solid #FEC838;
     /*セルとセルの間を消したい*/
 }
-
-
+ 
+ 
 .under-third {
     color: #FEC838;
 }
-
-body {
-    height: 100vh;
-    margin: 0;
-    background:
-        url("../images/backimg.png"),
-        radial-gradient(ellipse at center,
-            rgba(45, 17, 159, 1) 0%,
-            rgba(13, 19, 81, 1) 100%);
-
-    /* 左が画像、右がグラデーション */
-    background-repeat: repeat, no-repeat;
-    background-position: center top / cover, center;
-    background-size: 100%, cover;
-    background-attachment: scroll, fixed;
-    /* color: white; */
-    margin: 0;
-    min-height: 100%;
+ 
+@media screen and (max-width: 680px) {
+ 
+  .ranking-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
+ 
+  .ranking-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+  }
+ 
+  .ranking-kousin h4{
+    margin-bottom: 14rem;
+  }
+ 
 }
+ 

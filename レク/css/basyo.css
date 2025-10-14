@@ -1,34 +1,60 @@
 @charset "utf-8";
-
+ 
 .basyo-main{
     max-width: 80%;
     margin: 10rem auto;
     /* background-color: aqua; */
 }
-
+ 
 .basyo-title{
-    margin-top: 15rem;
-    text-align: center;
-    font-size: 2rem;
     text-align: center;
 }
-
+ 
 .basyo-title h2{
-    font-size: 3rem;
+    font-size: 4rem;
     color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
-
-.basyo-title h3{
-    font-size: 2rem;
-    margin-top: 3rem;
-    color: #EEF3FF;
-}
-
+ 
 .basyo-img{
     margin: 0 auto;
-    margin-top: 15rem;
-    width: 95%;
-    height: 80vh;
-    background-color: cadetblue;
-    border: 2px solid #FEC838;
+    margin-top: 16.5rem;
+    width: 85%;
+    height: 75vh;
+    background-image: url(../images/map-1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+ 
+.basyo-img2{
+    margin: 0 auto;
+    margin-top: 16.5rem;
+    width: 85%;
+    height: 75vh;
+    background-image: url(../images/map-2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ 
+@media screen and (max-width: 680px) {
+ 
+  .basyo-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
+ 
+  .basyo-title h2 {
+    font-size: 2.5rem;
+  }
+ 
+  .basyo-img,
+  .basyo-img2{
+    width: 100%;
+    height: 40vh;
+    margin-top: 5rem;
+  }
+ 
+}
+ 

@@ -1,154 +1,398 @@
 @charset "utf-8";
+ 
+h2 {
+    color: #FEC838;
+}
+ 
+h3 {
+    color: #FEC838;
+}
+ 
+ 
+h4 {
+    color: #EEF3FF;
+}
+ 
 .kamihikouki-main{
     max-width: 80%;
-    margin: 10rem auto;
+    margin: 10rem  auto;
     /* background-color: aqua; */
 }
-
+ 
 .kamihikouki-title{
     text-align: center;
     /* background-color: blueviolet; */
 }
-
+ 
 .kamihikouki-title h2{
-    font-size: 3rem;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
-
-.kamihikouki-title h3{
-    font-size: 2rem;
-    margin-top: 3rem;
+ 
+.kamihikouki-title h4{
+    font-size: 1.7rem;
+    margin-top: 2rem;
 }
-
+ 
 .kamihikouki-img{
     margin: 0 auto;
-    margin-top: 15rem;
-    width: 95%;
-    height: 80vh;
-    background-color: cadetblue;
-}
-
-.kyougiShousai-title{
-    margin-top: 15rem;
-    text-align: center;
-    font-size: 2rem;
-}
-
-.kyougiShousai-container{
+    margin-top: 12rem;
     width: 85%;
-    /* background-color: blanchedalmond; */
+    height: 75vh;
+    /* background-color: cadetblue; */
+    background-image: url(../images/about-kamihikouki.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ 
+.syuugou-title h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15rem;
+    color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+ 
+.kamihikoukibasyo-img {
+    margin: 0 auto;
+    margin-top: 7rem;
+    width: 85%;
+    height: 75vh;
+    background-image: url(../images/place-kamihikouki.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ 
+.kyougiShousai-title h3{
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+ 
+.kyougiShousai-container{
+    /*コンテナはここから*/
+    width: 85%;
+    padding-bottom: 9rem;
+    border: 0.2rem solid #FEC838;
+    background-color: rgba(0, 5, 54, 0.7);
     margin: 0 auto;
 }
-
-.kamihikouki-summary h3{
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+ 
+li {
+    color: #EEF3FF;
+    font-size: 1.2rem;
 }
-
+ 
+.kyougiSdhousai-cont-text {
+    color: #FEC838;
+    font-size: 1.2rem;
+}
+ 
+.kamihikouki-summary {
+    margin: 0 7rem;
+}
+ 
+.kamihikouki-summary h3{
+    margin-top: 9rem;
+    margin-bottom: 2.1rem;
+    font-size: 2rem;
+    padding: .2rem;
+}
+ 
 .kamihikouki-summary h4{
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+    color: #EEF3FF;
 }
-
-.leagueTable-title h3{
-    margin-top: 10rem;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.leagueTable-img{
-    margin: 0 auto;
-    margin-top: 5rem;
-    width: 100%;
-    height: 70vh;
-    background-color: cadetblue;
-}
-
-.kamihikouki-NoP h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.kamihikouki-NoP h4{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.gameRule h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-li{
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.gameRule ul li {
-    list-style-type: disc;
-    list-style-position: inside
-}
-
-.gameRule ol li {
-    list-style-type: decimal;
-    list-style-position: outside;
-    margin-left: 4rem;
-}
-
-.kamihikouki-attention h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.kamihikouki-attention li{
-    list-style-type: disc;
-    list-style-position: inside
-}
-
-.point h3{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem; 
-}
-
-.point h4{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
-}
-
-.point ul li {
-    list-style-type: disc;
-    list-style-position: inside
-}
-
-.point-img{
-    margin: 0 auto;
-    margin-top: 15rem;
-    margin-bottom: 20rem;
-    width: 95%;
-    height: 80vh;
-    background-color: cadetblue;
-}
-
-body {
-  height: 100vh;
-  margin: 0;
-  background:
-    url("../images/backimg.png") ,
-    radial-gradient(ellipse at center,
-      rgba(45, 17, 159, 1) 0%,
-      rgba(13, 19, 81, 1) 100%);
  
-  /* 左が画像、右がグラデーション */
-  background-repeat: repeat, no-repeat;
-  background-position: center top / cover, center;
-  background-size: 100%, cover;
-  background-attachment: scroll, fixed;
-  /* color: white; */
-  margin: 0;
-  min-height: 100%;
+.league-title {
+    margin-top: 7rem;
+    width: 100%;
+    height: 8.5vh;
+    background:
+        radial-gradient(ellipse at center,
+            rgb(240, 214, 142) 0%,
+            rgb(254, 208, 79) 50%,
+            rgba(254, 200, 56, 1) 100%);
+    box-shadow: 0 6px 0 #c69a20;
+    /* 下方向に濃い影 */
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    /* ← これが必須！ */
+    align-items: center;
+    /* ← 縦方向センター */
+    justify-content: center;
+    /* ← 横方向センター */
 }
+ 
+.league-title:hover {
+    transform: translateY(2px);
+    box-shadow: 0 3px 0 #c69a20;
+    filter: brightness(1.05);
+    /* 5%明るく */
+}
+ 
+.leagueTable-link {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+}
+ 
+.league-title h3{
+    color: #0A094C;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 900;
+}
+ 
+.kamihikouki-NoP {
+    margin: 0 7rem;
+}
+ 
+.kamihikouki-NoP h3{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+ 
+.kamihikouki-NoP h4{
+    line-height: 2.2rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #EEF3FF;
+}
+ 
+.detaile {
+    margin: 0 7rem;
+}
+ 
+.detaile h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+ 
+.detaile ul li {
+    line-height: 2.2rem;
+}
+ 
+.gameRule {
+    margin: 0 7rem;
+    line-height: 2.2rem;
+}
+ 
+.gameRule h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+ 
+.gameRule ul li {
+    list-style: none;
+    /* margin-left: 1.5rem; */
+}
+ 
+.yajirusi{
+    margin-left: 1.5rem;
+}
+ 
+.attention {
+    margin: 0 7rem;
+}
+ 
+.attention h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+ 
+.attention ul {
+    margin-bottom: 1rem;
+}
+ 
+.attention ul li {
+    list-style: none;
+    list-style-position: inside;
+    /* margin-left: 1.5rem; */
+    line-height: 2.2rem;
+}
+ 
+.point {
+    margin: 0 7rem;
+    line-height: 2.2rem;
+}
+ 
+.point h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+ 
+.point ul li {
+    list-style-position: inside;
+    list-style: none;
+}
+ 
+.btn-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+ 
+.back-link {
+    display: block;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+}
+ 
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-top: 5rem;
+    transition: filter 0.5s ease;
+}
+ 
+.triangle {
+    flex: 0 0 auto;
+    display: block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    padding: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 18px solid #FEC838;
+    /* filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8)) drop-shadow(0 0 10px rgba(254, 200, 56, 0.7)) drop-shadow(0 0 20px rgba(254, 200, 56, 0.6)); */
+    transform: translateY(2px);
+}
+ 
+ 
+.back-btn-text {
+    color: #FEC838;
+    font-size: 1.5rem;
+    /* text-shadow: 0 0 4px rgba(254, 200, 56, 0.8), 0 0 10px rgba(254, 200, 56, 0.7), 0 0 20px rgba(254, 200, 56, 0.6); */
+    transition: filter 0.5s ease;
+}
+ 
+/* 親にfilterを集約 */
+.back-btn:hover {
+  filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8))
+          drop-shadow(0 0 10px rgba(254, 200, 56, 0.7))
+          drop-shadow(0 0 20px rgba(254, 200, 56, 0.6));
+}
+ 
+/* 子要素にはfilterを直接指定しない */
+.triangle,
+.back-btn-text {
+  transition: none; /* hover時の差をなくす */
+}
+ 
+@media screen and (max-width: 680px) {
+ 
+  .kamihikouki-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
+ 
+  .kamihikouki-title h2 {
+    font-size: 2.5rem;
+  }
+ 
+  .kamihikouki-title h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+ 
+  .kamihikouki-img,
+  .kamihikoukibasyo-img {
+    width: 100%;
+    height: 40vh;
+    margin-top: 5rem;
+  }
+ 
+  .syuugou-title h3,
+  .kyougiShousai-title h3 {
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+  }
+ 
+  .kyougiShousai-container {
+    width: 90%;
+    padding: 1.2rem;
+  }
+ 
+  .kamihikouki-summary,
+  .kamihikouki-NoP,
+  .detaile,
+  .gameRule,
+  .attention,
+  .point {
+    margin: 0 ;
+  }
+ 
+  .kamihikouki-summary h3 {
+    margin-top: 5rem;
+  }
+ 
+ 
+  h3.kyougiSdhousai-cont-text {
+    font-size: 1.4rem;
+  }
+ 
+  h4.kyougiSdhousai-cont-text,
+  li {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+ 
+  .leagueTable-link {
+    width: 40%;
+    height: auto;
+  }
+ 
+  .league-title h3 {
+    font-size: 1.6rem;
+  }
+ 
+  .btn-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* 中央寄せ */
+  }
+ 
+  .back-btn {
+    margin-top: 3rem;
+    justify-content: center; /* ボタン内テキストも中央 */
+  }
+ 
+  .back-link {
+    width: auto;
+  }
+ 
+  .triangle {
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 18px solid #FEC838;
+  }
+ 
+  .last-margin{
+    margin-bottom: 5rem;
+  }
+ 
+}
+ 

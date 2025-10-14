@@ -1,27 +1,26 @@
 @charset "utf-8";
-
+ 
 .sennsyu-main {
   max-width: 80%;
   margin: 10rem auto;
   /* background-color: aqua; */
 }
-
-.sennsyu-title {
-  text-align: center;
-  color: #FEC838;
+ 
+.sennsyu-title h2{
+    color: #FEC838;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 4rem;
+    /* background-color: blueviolet; */
 }
-
-.sennsyu-title h2 {
-  font-size: 3rem;
-}
-
+ 
 .sennsyu-text-box h4{
-    margin-top: 8rem;
+    margin-top: 5rem;
     font-size: 1.2rem;
     text-align: center;
     color: #EEF3FF;
 }
-
+ 
 :root {
   --bg-header: #171269;
   /* 見出し背景色 */
@@ -30,7 +29,7 @@
   --text-sub: #f5f6fc;
   --radius: 12px;
 }
-
+ 
 .accordion {
   /* width: min(600px, 95%); */
   width: 60%;
@@ -39,7 +38,7 @@
   gap: 3rem;
   margin: 0 auto;
 }
-
+ 
 .item {
   border-radius: 9px;
   overflow: hidden;
@@ -53,7 +52,7 @@
     0 0 10px rgba(254, 200, 56, 0.6),
     0 0 20px rgba(254, 200, 56, 0.4);
 }
-
+ 
 /* 見出し部分 */
 .trigger {
   display: flex;
@@ -67,21 +66,21 @@
   width: 85%;
   margin: 0 auto;
 }
-
+ 
 .trigger .title {
   font-size: 20px;
   border-bottom: 2px solid #FEC838;
   padding: .3rem;
   color: #FEC838;
 }
-
+ 
 .trigger .subtitle {
   font-size: 14px;
   font-weight: normal;
   margin-top: 8px;
   color: #EEF3FF;
 }
-
+ 
 /* 矢印アイコン */
 .trigger::after {
   content: "";
@@ -96,7 +95,7 @@
   transition: transform 0.5s;
   font-size: 18px;
 }
-
+ 
 /* 展開部分 */
 .panel {
   max-height: 0;
@@ -108,7 +107,7 @@
   border-top: 1.5px solid #FEC838;
   border-radius: 9px;
 }
-
+ 
 .panel ul {
   width: 85%;
   list-style: none;
@@ -116,22 +115,41 @@
   padding: 16px 20px;
   margin: 0 auto;
 }
-
+ 
 .panel li {
   padding: 6px 0;
   border-bottom: 1px solid #ffb400;
   color: #EEF3FF;
 }
-
+ 
 .panel li:last-child {
   border-bottom: none;
 }
-
+ 
 /* 開いたとき */
 input:checked+.trigger::after {
   transform: translateY(50%) rotate(-135deg);
 }
-
+ 
 input:checked+.trigger+.panel {
   max-height: 900px;
 }
+ 
+@media screen and (max-width: 680px) {
+ 
+  .sennsyu-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
+ 
+  .sennsyu-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+  }
+ 
+  .sennsyu-text-box h4{
+    margin-bottom: 14rem;
+  }
+ 
+}
+ 
