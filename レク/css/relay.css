@@ -365,6 +365,10 @@ li{
     margin: 0 ;
   }
  
+  .relay-summary h3 {
+    margin-top: 5rem;
+  }
+
   h3.kyougiSdhousai-cont-text {
     font-size: 1.4rem;
   }
@@ -406,12 +410,9 @@ li{
     border-right: 18px solid #FEC838;
   }
  
-  /* .last-margin{
-    margin-bottom: 9rem;
-  } */
- 
-  .point h4:last-of-type {
-    margin-bottom: 9rem;
+  .last-margin{
+    margin-bottom: 5rem;
   }
+ 
  
 }

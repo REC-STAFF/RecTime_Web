@@ -21,7 +21,8 @@
     /* background-color: cadetblue; */
     background-image: url(../images/schedule-img.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
