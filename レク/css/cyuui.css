@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.caution-main {
+    max-width: 80%;
+    margin: 10rem auto;
+}
+
 /* タイトルの装飾 */
 h2 {
     font-size: 4rem;
