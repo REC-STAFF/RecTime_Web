@@ -56,6 +56,7 @@
 .tableR {
     text-align: center;
     margin: 0 auto;
+    border-collapse: collapse;
 }
  
 .tableR td {
