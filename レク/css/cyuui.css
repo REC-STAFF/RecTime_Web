@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-.caution-main {
-    width: 80%;
-    margin: 10rem auto;
-}
 /* タイトルの装飾 */
 h2 {
     font-size: 4rem;
@@ -21,8 +17,8 @@ h3 {
 
 .caution-title {
     font-size: 2rem;
-    text-align: center;  
-    text-shadow:rgba(0, 0, 0, 0.4) 3px 3px 5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.4) 3px 3px 5px;
 }
 
 .event-guidelines {
@@ -30,7 +26,7 @@ h3 {
     border: solid 2px;
     border-color: #fec838;
     margin-bottom: -2px;
-    background-color:rgba(0, 5, 54, 0.7);
+    background-color: rgba(0, 5, 54, 0.7);
 }
 
 .event-guidelines h3 {
@@ -64,7 +60,7 @@ h3 {
     border: solid 2px;
     border-color: #fec838;
     margin-bottom: -2px;
-    background-color:rgba(0, 5, 54, 0.7);
+    background-color: rgba(0, 5, 54, 0.7);
 }
 
 .about-venue {
@@ -91,7 +87,7 @@ h3 {
     margin: 0 auto;
     border: solid 2px;
     border-color: #fec838;
-    background-color:rgba(0, 5, 54, 0.7);
+    background-color: rgba(0, 5, 54, 0.7);
 }
 
 .about-cancel h3 {
@@ -109,6 +105,6 @@ h3 {
 .about-cancel li {
     font-size: 1.5rem;
     padding-bottom: 1rem;
-    list-style-type: disc;         
+    list-style-type: disc;
     list-style-position: inside;
 }
