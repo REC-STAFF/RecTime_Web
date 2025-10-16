@@ -12,26 +12,26 @@
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 17rem;
+    margin-bottom: 13rem;
     /* background-color: blueviolet; */
 }
  
 .cosShousai-container {
     width: 85%;
-    border: 0.2rem solid #FEC838;
+    border: 0.1rem solid #FEC838;
     background-color: rgba(0, 5, 54, 0.7);
     margin: 0 auto;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
 }
  
 h4 {
     font-weight: normal;
     font-size: 1.3rem;
-    margin-left: 7rem;
+    margin: 0 7rem;
 }
 
 .cos-summary{
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
  
 .cos-summary h4 {

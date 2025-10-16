@@ -1,40 +1,40 @@
 @charset "utf-8";
- 
+
 h2 {
     color: #FEC838;
 }
- 
+
 h3 {
     color: #FEC838;
 }
- 
- 
+
+
 h4 {
     color: #EEF3FF;
 }
- 
- 
+
+
 .tunahiki-main {
     max-width: 80%;
     margin: 10rem auto;
     /* background-color: aqua; */
 }
- 
+
 .tunahiki-title {
     text-align: center;
     /* background-color: blueviolet; */
 }
- 
+
 .tunahiki-title h2 {
     font-size: 4rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
- 
+
 .tunahiki-title h4 {
     font-size: 1.7rem;
     margin-top: 2rem;
 }
- 
+
 .tunahiki-img {
     margin: 0 auto;
     margin-top: 12rem;
@@ -46,7 +46,7 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
 }
- 
+
 .syuugou-title h3 {
     font-size: 3rem;
     text-align: center;
@@ -54,7 +54,7 @@ h4 {
     color: #FEC838;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
- 
+
 .tunahikibasyo-img {
     margin: 0 auto;
     margin-top: 7rem;
@@ -66,8 +66,8 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
 }
- 
- 
+
+
 .kyougiShousai-title h3 {
     margin-top: 15rem;
     margin-bottom: 7rem;
@@ -75,38 +75,38 @@ h4 {
     font-size: 3rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
- 
+
 .kyougiShousai-container {
     /*コンテナはここから*/
     width: 85%;
-    padding-bottom: 9rem;
-    border: 0.2rem solid #FEC838;
+    padding-bottom: 10rem;
+    border: 0.1rem solid #FEC838;
     background-color: rgba(0, 5, 54, 0.7);
     margin: 0 auto;
 }
- 
+
 li {
     color: #EEF3FF;
     font-size: 1.2rem;
 }
- 
+
 .kyougiSdhousai-cont-text {
     color: #FEC838;
     font-size: 1.2rem;
 }
- 
+
 .tunahiki-summary {
     margin: 0 7rem;
 }
- 
- 
+
+
 .tunahiki-summary h3 {
-    margin-top: 9rem;
+    margin-top: 10rem;
     margin-bottom: 2.1rem;
     font-size: 2rem;
     padding: .2rem;
 }
- 
+
 .tunahiki-summary h4 {
     margin-top: 1rem;
     font-size: 1.2rem;
@@ -114,7 +114,7 @@ li {
     line-height: 2.2rem;
     color: #EEF3FF;
 }
- 
+
 .league-title {
     margin-top: 7rem;
     width: 100%;
@@ -136,14 +136,14 @@ li {
     justify-content: center;
     /* ← 横方向センター */
 }
- 
+
 .league-title:hover {
     transform: translateY(2px);
     box-shadow: 0 3px 0 #c69a20;
     filter: brightness(1.05);
     /* 5%明るく */
 }
- 
+
 .leagueTable-link {
     margin: 0 auto;
     display: block;
@@ -151,56 +151,56 @@ li {
     height: 100%;
     text-decoration: none;
 }
- 
+
 .league-title h3 {
     color: #0A094C;
     font-size: 2.4rem;
     text-align: center;
     font-weight: 900;
 }
- 
+
 .tunahiki-NoP {
     margin: 0 7rem;
 }
- 
+
 .tunahiki-NoP h3 {
     margin-top: 7rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
- 
+
 .tunahiki-NoP h4 {
     line-height: 2.2rem;
     font-weight: normal;
     font-size: 1.2rem;
     color: #EEF3FF;
 }
- 
+
 .detaile {
     margin: 0 7rem;
 }
- 
+
 .detaile h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
- 
+
 .detaile ul li {
     line-height: 2.2rem;
 }
- 
+
 .gameRule {
     margin: 0 7rem;
     line-height: 2.2rem;
 }
- 
+
 .gameRule h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
- 
+
 /*
 li{
     margin-top: 1rem;
@@ -217,40 +217,40 @@ li{
     list-style-position: outside;
     margin-left: 4rem;
 } */
- 
+
 .attention {
     margin: 0 7rem;
 }
- 
+
 .attention h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
- 
- 
+
+
 .attention ul {
     margin-bottom: 1rem;
 }
- 
+
 .attention ul li {
     list-style: none;
     list-style-position: inside;
     /* margin-left: 1.5rem; */
     line-height: 2.2rem;
 }
- 
+
 .point {
     margin: 0 7rem;
     line-height: 2.2rem;
 }
- 
+
 .point h3 {
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
- 
+
 .point h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -258,27 +258,27 @@ li{
     font-weight: normal;
     color: #EEF3FF;
 }
- 
+
 .point ul li {
     list-style-position: inside;
     list-style: none;
 }
- 
+
 .btn-container {
     width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
- 
+
 .back-link {
     display: block;
     width: 20%;
     height: 100%;
     text-decoration: none;
 }
- 
- 
+
+
 .back-btn {
     display: flex;
     align-items: center;
@@ -286,7 +286,7 @@ li{
     margin-top: 5rem;
     transition: filter 0.5s ease;
 }
- 
+
 .triangle {
     flex: 0 0 auto;
     display: block;
@@ -300,123 +300,126 @@ li{
     /* filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8)) drop-shadow(0 0 10px rgba(254, 200, 56, 0.7)) drop-shadow(0 0 20px rgba(254, 200, 56, 0.6)); */
     transform: translateY(2px);
 }
- 
+
 .back-btn-text {
     color: #FEC838;
     font-size: 1.5rem;
     /* text-shadow: 0 0 4px rgba(254, 200, 56, 0.8), 0 0 10px rgba(254, 200, 56, 0.7), 0 0 20px rgba(254, 200, 56, 0.6); */
     transition: filter 0.5s ease;
+    font-family: "source-han-sans-japanese", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
- 
+
 /* 親にfilterを集約 */
 .back-btn:hover {
-  filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8))
-          drop-shadow(0 0 10px rgba(254, 200, 56, 0.7))
-          drop-shadow(0 0 20px rgba(254, 200, 56, 0.6));
+    filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8)) drop-shadow(0 0 10px rgba(254, 200, 56, 0.7)) drop-shadow(0 0 20px rgba(254, 200, 56, 0.6));
 }
- 
+
 /* 子要素にはfilterを直接指定しない */
 .triangle,
 .back-btn-text {
-  transition: none; /* hover時の差をなくす */
+    transition: none;
+    /* hover時の差をなくす */
 }
- 
+
 @media screen and (max-width: 680px) {
- 
-  .tunahiki-main {
-    max-width: 85%;
-    margin: 5rem auto;
-  }
- 
-  .tunahiki-title h2 {
-    font-size: 2.5rem;
-  }
- 
-  .tunahiki-title h4 {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-  }
- 
-  .tunahiki-img,
-  .tunahikibasyo-img {
-    width: 100%;
-    height: 40vh;
-    margin-top: 5rem;
-  }
- 
-  .syuugou-title h3,
-  .kyougiShousai-title h3 {
-    font-size: 2rem;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
-  }
- 
-  .kyougiShousai-container {
-    width: 90%;
-    padding: 1.2rem;
-  }
- 
-  .tunahiki-summary,
-  .tunahiki-NoP,
-  .detaile,
-  .gameRule,
-  .attention,
-  .point {
-    margin: 0 ;
-  }
- 
-  .tunahiki-summary h3 {
-    margin-top: 5rem;
-  }
- 
-  h3.kyougiSdhousai-cont-text {
-    font-size: 1.4rem;
-  }
- 
-  h4.kyougiSdhousai-cont-text,
-  li {
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
- 
-  .leagueTable-link {
-    width: 40%;
-    height: auto;
-  }
- 
-  .league-title h3 {
-    font-size: 1.6rem;
-  }
- 
-  .btn-container {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center; /* 中央寄せ */
-  }
- 
-  .back-btn {
-    margin-top: 3rem;
-    justify-content: center; /* ボタン内テキストも中央 */
-  }
- 
-  .back-link {
-    width: auto;
-  }
- 
-  .triangle {
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
-    border-right: 18px solid #FEC838;
-  }
- 
-  /* .last-margin{
+
+    .tunahiki-main {
+        max-width: 85%;
+        margin: 5rem auto;
+    }
+
+    .tunahiki-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .tunahiki-title h4 {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .tunahiki-img,
+    .tunahikibasyo-img {
+        width: 100%;
+        height: 40vh;
+        margin-top: 5rem;
+    }
+
+    .syuugou-title h3,
+    .kyougiShousai-title h3 {
+        font-size: 2rem;
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    .kyougiShousai-container {
+        width: 90%;
+        padding: 1.2rem;
+    }
+
+    .tunahiki-summary,
+    .tunahiki-NoP,
+    .detaile,
+    .gameRule,
+    .attention,
+    .point {
+        margin: 0;
+    }
+
+    .tunahiki-summary h3 {
+        margin-top: 5rem;
+    }
+
+    h3.kyougiSdhousai-cont-text {
+        font-size: 1.4rem;
+    }
+
+    h4.kyougiSdhousai-cont-text,
+    li {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .leagueTable-link {
+        width: 40%;
+        height: auto;
+    }
+
+    .league-title h3 {
+        font-size: 1.6rem;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* 中央寄せ */
+    }
+
+    .back-btn {
+        margin-top: 3rem;
+        justify-content: center;
+        /* ボタン内テキストも中央 */
+    }
+
+    .back-link {
+        width: auto;
+    }
+
+    .triangle {
+        border-top: 11px solid transparent;
+        border-bottom: 11px solid transparent;
+        border-right: 18px solid #FEC838;
+    }
+
+    /* .last-margin{
     margin-bottom: 9rem;
   } */
- 
-  .point h4:last-of-type {
-    margin-bottom: 5rem;
-  }
- 
+
+    .point h4:last-of-type {
+        margin-bottom: 5rem;
+    }
+
 }
- 
