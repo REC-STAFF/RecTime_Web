@@ -118,7 +118,7 @@
   /* 初期は画面外に隠す */
   width: 350px;
   height: 100%;
-  background: rgba(14, 20, 82, 0.7);
+  background: rgba(14, 20, 82, 0.5);
   transition: right 0.5s ease;
   z-index: 1000;
   display: flex;
@@ -130,6 +130,9 @@
   /* 横中央寄せ */
   gap: 1.5rem;
   /* 各項目の間隔 */
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .header-nav ul li {
@@ -164,7 +167,7 @@
 #footer {
   text-align: center;
   font-size: 1.1rem;
-  margin-top: auto;
+  margin-top: 20rem;
   padding-bottom: 1rem;
   color: #FEC838;
 }

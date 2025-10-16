@@ -15,7 +15,7 @@
 }
  
 .sennsyu-text-box h4{
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 1.2rem;
     text-align: center;
     color: #EEF3FF;
@@ -37,6 +37,7 @@
   flex-direction: column;
   gap: 3rem;
   margin: 0 auto;
+  padding-top: 6rem;
 }
  
 .item {

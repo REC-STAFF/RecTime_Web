@@ -8,14 +8,14 @@
 
 .kyougi-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #FEC838;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     /* background-color: blueviolet; */
 }
 
 .schedule-img {
-    margin: 15rem auto;
+    margin: 13rem auto;
     width: 85%;
     height: 75vh;
     /* background-color: cadetblue; */
