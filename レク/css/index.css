@@ -25,7 +25,7 @@ index-main {
 
 .hero-pc {
   position: absolute;
-  width: 100%;  
+  width: 100%;
   height: 100vh;
 }
 
@@ -39,7 +39,7 @@ index-main {
   position: absolute;
   width: 10%;
   padding-top: 1rem;
-  left: 50%;  
+  left: 50%;
   /* 画像左端を親要素の中央に配置する */
   transform: translateX(-50%);
   /* 画像自体を左に50％かけることで中央になる */
@@ -121,7 +121,7 @@ h2 {
 
 /* NEW */
 .news-section {
-  position: relative; 
+  position: relative;
   width: 60%;
   height: auto;
   margin: 5rem auto;
@@ -200,7 +200,7 @@ h2 {
 }
 
 .event-cards {
-  display: flex;  
+  display: flex;
   /* place-items: center; */
   background-image: url(../images/syuusei.png);
   background-position: center;
@@ -222,13 +222,13 @@ h2 {
   width: 80%;
   color: #fec838;
   font-size: 1.7rem;
-  border-bottom: solid 1px #fec838;
   padding-bottom: 1rem;
 }
 
 .event-cards p {
-  width: 80%;
+  /* width: 100%; */
   color: #eef3ff;
+  border-top: solid 1px #fec838;
   padding-top: 1rem;
 }
 
@@ -239,7 +239,7 @@ h2 {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  padding: 10rem 1rem 0 1rem;
+  padding: 10rem 1rem 20rem 1rem;
 }
 
 .access h2 {
@@ -279,7 +279,7 @@ h2 {
   padding-bottom: 0.3rem;
 }
 
-.map-train{
+.map-train {
   margin-top: 1.5rem;
 }
 
@@ -296,7 +296,8 @@ h2 {
   }
 
   .event-cards h2 {
-    font-size: 1.5rem;  
+    width: 90%;
+    font-size: 1.5rem;
   }
 
   .event-cards p {
@@ -311,19 +312,21 @@ h2 {
     margin: 5rem auto;
   }
 
- .hero-area-pc {
+  .hero-area-pc {
     display: none !important;
   }
 
   .hero-area-mo {
     display: block;
+    width: 100vw;
     height: 100vh;
   }
 
   .hero-mo {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background-size: cover;
   }
 
   .hero-logo {
@@ -359,6 +362,7 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
   }
+
   /* </ヒーローエリア> */
 
 
@@ -370,17 +374,22 @@ h2 {
 
   .event-cards {
     width: 80vw;
-    height: 40vh;
+    /* height: 40vh; */
     margin: 1rem auto;
   }
 
   .cards-text h2 {
     font-size: 1.8rem;
+    padding-bottom: .5rem;
   }
 
   .event-cards p {
     font-size: 1.2rem;
+    padding-top: .5rem;
+
   }
+
+  /* </カードに対しての装飾> */
 
   .map {
     width: 80%;
