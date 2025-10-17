@@ -12,6 +12,7 @@
   */
 
 index-main {
+  max-width: 80%;
   padding: 10rem 0;
 }
 
@@ -64,10 +65,6 @@ index-main {
   width: 100%;
   height: auto;
   /* object-fit: contain; */
-}
-
-.hero-area-pc {
-  display: block;
 }
 
 .hero-area-mo {
@@ -195,14 +192,15 @@ h2 {
 }
 
 .cards-row {
-  /* width: 80%; */
   display: flex;
+  /* width: 80%; */
+  flex-wrap: wrap;
   margin: 0 auto;
   /* justify-content: space-between; */
 }
 
 .event-cards {
-  display: flex;
+  display: flex;  
   /* place-items: center; */
   background-image: url(../images/syuusei.png);
   background-position: center;
@@ -215,7 +213,7 @@ h2 {
 }
 
 .cards-text {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: auto 3rem;
 }
@@ -285,14 +283,40 @@ h2 {
   margin-top: 1.5rem;
 }
 
+@media(max-width:1208px) {
+  .cards-row {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+  }
+
+  .event-cards {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .event-cards h2 {
+    font-size: 1.5rem;  
+  }
+
+  .event-cards p {
+    font-size: 0.8rem;
+  }
+}
+
 @media(max-width:680px) {
+
+  .index-main {
+    max-width: 85%;
+    margin: 5rem auto;
+  }
 
  .hero-area-pc {
     display: none !important;
   }
 
   .hero-area-mo {
-    display: block !important;
+    display: block;
     height: 100vh;
   }
 
@@ -303,45 +327,59 @@ h2 {
   }
 
   .hero-logo {
-    width: 25%;
+    width: 15vw;
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-title {
-    width: 130%;
+    width: 50vw;
     height: auto;
-    top: 10%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-mo-date {
     position: absolute;
-    width: 50%;
-    padding-top: 10em;
-    top: 50%;
+    width: 50vw;
+    height: auto;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     /* z-index: 10; */
   }
 
-  .hero-area-mo .hero-place {
-    width: 200%;
-    bottom: 5%;
+  .hero-place {
+    width: 30vw;
+    /* height: 20vh;   */
+    /* height: 100vh; */
+    top: 90%;
     left: 50%;
     transform: translateX(-50%);
   }
+  /* </ヒーローエリア> */
 
+
+  /* カードに対しての装飾 */
   .cards-row {
     flex-direction: column;
     align-items: center;
   }
 
   .event-cards {
-    width: 80%;
+    width: 80vw;
+    height: 40vh;
     margin: 1rem auto;
+  }
+
+  .cards-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .event-cards p {
+    font-size: 1.2rem;
   }
 
   .map {
