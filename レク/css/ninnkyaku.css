@@ -13,6 +13,7 @@ h4 {
     color: #EEF3FF;
 }
 
+
 .ninnkyaku-main {
     max-width: 80%;
     margin: 10rem auto;
@@ -59,11 +60,13 @@ h4 {
     margin-top: 7rem;
     width: 85%;
     height: 75vh;
+    /* background-color: cadetblue; */
     background-image: url(../images/place-ninnkyaku.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 .kyougiShousai-title h3 {
     margin-top: 15rem;
@@ -93,8 +96,9 @@ li {
 }
 
 .ninnkyaku-summary {
-    margin: 0 7rem;
+    margin: 5rem 7rem;
 }
+
 
 .ninnkyaku-summary h3 {
     margin-top: 10rem;
@@ -110,7 +114,6 @@ li {
     line-height: 2.2rem;
     color: #EEF3FF;
 }
-
 
 .league-title {
     margin-top: 7rem;
@@ -144,7 +147,7 @@ li {
 .leagueTable-link {
     margin: 0 auto;
     display: block;
-    width: 40%;
+    width: 30%;
     height: 100%;
     text-decoration: none;
 }
@@ -156,30 +159,29 @@ li {
     font-weight: 900;
 }
 
-.ninnkyou-NoP {
-    margin: 0 7rem;
+.ninnkyaku-NoP {
+    margin: 5rem 7rem;
 }
 
-.ninnkyou-NoP h3 {
+.ninnkyaku-NoP h3 {
     margin-top: 7rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.ninnkyou-NoP h4 {
+.ninnkyaku-NoP h4 {
     line-height: 2.2rem;
     font-weight: normal;
     font-size: 1.2rem;
     color: #EEF3FF;
 }
 
-
 .detaile {
-    margin: 0 7rem;
+    margin: 5rem 7rem;
 }
 
 .detaile h3 {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-bottom: 2rem;
     font-size: 2rem;
 }
@@ -188,65 +190,41 @@ li {
     line-height: 2.2rem;
 }
 
-/* 内容の中の脚数の種類 */
-.detaile-into {
-    margin-top: 0.8rem;
-    margin-left: 0.8rem;
-    display: block;
-}
-
-.under-text {
-    margin-left: 1.5rem;
-    margin-bottom: 0.8rem;
-}
-
 .gameRule {
-    margin: 0 7rem;
-    line-height: 2.2rem;
+    margin: 5rem 7rem;
 }
 
 .gameRule h3 {
-    margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
 
-.gameRule ol li {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
+/* li{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+} */
 
 .gameRule ul li {
-    list-style: none;
-    margin-left: 1.5rem;
+    line-height: 2.2rem;
 }
 
-.gameRule-nagare {
-    margin: 0.9rem 0;
-}
-
-.gameRule ul li p {
-    /* line-height: 2rem; */
-    /* margin-top: 1rem; */
-    margin-left: 2rem;
-}
+/* .gameRule ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 4rem;
+}  */
 
 .attention {
-    margin: 0 7rem;
+    margin: 5rem 7rem;
 }
 
 .attention h3 {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.attention ol li {
-    list-style-type: decimal;
-    list-style-position: inside;
-    line-height: 2.2rem;
-}
 
 .attention ul {
     margin-bottom: 1rem;
@@ -255,24 +233,32 @@ li {
 .attention ul li {
     list-style: none;
     list-style-position: inside;
-    margin-left: 1.5rem;
-}
-
-
-.point {
-    margin: 0 7rem;
+    /* margin-left: 1.5rem; */
     line-height: 2.2rem;
 }
 
+.point {
+    margin: 5rem 7rem;
+}
+
 .point h3 {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-bottom: 2rem;
     font-size: 2rem;
+}
+
+.point h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* font-size: 1.5rem; */
+    font-weight: normal;
+    color: #EEF3FF;
 }
 
 .point ul li {
     list-style-position: inside;
     list-style: none;
+    line-height: 2.2rem;
 }
 
 .btn-container {
@@ -289,11 +275,12 @@ li {
     text-decoration: none;
 }
 
+
 .back-btn {
     display: flex;
     align-items: center;
     gap: .6rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     transition: filter 0.5s ease;
 }
 
@@ -310,7 +297,6 @@ li {
     /* filter: drop-shadow(0 0 4px rgba(254, 200, 56, 0.8)) drop-shadow(0 0 10px rgba(254, 200, 56, 0.7)) drop-shadow(0 0 20px rgba(254, 200, 56, 0.6)); */
     transform: translateY(2px);
 }
-
 
 .back-btn-text {
     color: #FEC838;
@@ -334,71 +320,130 @@ li {
     /* hover時の差をなくす */
 }
 
+
 @media screen and (max-width: 680px) {
+/*  line-height: 1.4rem;
+h2 font-size: 2rem;
+h3 font-size: 1.2rem;
+本文font-size: 0.8rem;
+ */
+
 
     .ninnkyaku-main {
         max-width: 85%;
         margin: 5rem auto;
+        font-family: "fot-rodin-pron L", sans-serif;
+        font-style: normal;
     }
 
     .ninnkyaku-title h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .ninnkyaku-title h4 {
-        font-size: 1.2rem;
-        margin-top: 1rem;
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
     }
 
     .ninnkyaku-img,
     .ninnkyakubasyo-img {
         width: 100%;
-        height: 40vh;
-        margin-top: 5rem;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        object-fit: contain;
+
+        /* ←ここで縦横比を固定 */
+        margin-top: 3.6rem;
     }
 
-    .syuugou-title h3,
-    .kyougiShousai-title h3 {
-        font-size: 2rem;
-        margin-top: 8rem;
-        margin-bottom: 3rem;
+    .ninnkyakubasyo-img {
+        margin-top: 2.8rem;
+    }
+
+    .kyougiShousai-title h3,
+    .syuugou-title h3 {
+        font-size: 1.2rem;
+        margin-top: 5rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .ninnkyaku-summary h3,
+    .detaile h3,
+    .gameRule h3,
+    .attention h3,
+    .point h3 {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+
+    .ninnkyaku-NoP h3 {
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
     }
 
     .kyougiShousai-container {
         width: 90%;
-        padding: 1.2rem;
+        padding: 0.5rem 0;
+        border: 0.07rem solid #FEC838;
     }
 
     .ninnkyaku-summary,
-    .ninnkyou-NoP,
+    .ninnkyaku-NoP,
     .detaile,
     .gameRule,
     .attention,
     .point {
-        margin: 0;
+        margin: 2rem;
     }
 
-    .ninnkyaku-summary h3 {
-        margin-top: 5rem;
+    .ninnkyaku-summary h4 {
+        margin-top: 0;
+    }
+
+    .ninnkyaku-summary h4,
+    .detaile h4,
+    .gameRule h4,
+    .attention h4,
+    .point h4,
+    .ninnkyaku-NoP h4 {
+        margin-top: 0;
+        line-height: 1.4rem;
     }
 
     h3.kyougiSdhousai-cont-text {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     h4.kyougiSdhousai-cont-text,
     li {
-        font-size: 1rem;
-        line-height: 1.8rem;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+        margin: 0;
+    }
+
+    .ninnkyaku-summary ul li,
+    .detaile ul li,
+    .gameRule ul li,
+    .attention ul li,
+    .point ul li,
+    .ninnkyaku-NoP ul li {
+        line-height: 1.4rem;
+    }
+
+    .league-title {
+        height: 5vh;
+        margin-top: 3rem;
     }
 
     .leagueTable-link {
-        width: 40%;
-        height: auto;
+        width: 30%;
     }
 
     .league-title h3 {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     .btn-container {
@@ -412,7 +457,12 @@ li {
     .back-btn {
         margin-top: 3rem;
         justify-content: center;
-        /* ボタン内テキストも中央 */
+        transition: filter 0.5s ease;
+    }
+
+
+    .back-btn-text {
+        font-size: 1.1rem;
     }
 
     .back-link {
@@ -425,8 +475,159 @@ li {
         border-right: 18px solid #FEC838;
     }
 
-    .last-margin {
-        margin-bottom: 5rem;
+    .point h4:last-of-type {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
     }
 
+}
+
+@media screen and (min-width:681px) and (max-width:1080px) {
+
+    .ninnkyaku-main {
+        max-width: 90%;
+        margin: 7rem auto;
+        font-family: "fot-rodin-pron L", sans-serif;
+        font-style: normal;
+    }
+
+    .ninnkyaku-title h2 {
+        font-size: 3rem;
+    }
+
+    .ninnkyaku-title h4 {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .ninnkyaku-img,
+    .ninnkyakubasyo-img {
+        width: 90%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        object-fit: contain;
+        margin-top: 5rem;
+    }
+
+    .ninnkyakubasyo-img {
+        margin-top: 4rem;
+    }
+
+    .kyougiShousai-title h3,
+    .syuugou-title h3 {
+        font-size: 2rem;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .ninnkyaku-summary h3,
+    .detaile h3,
+    .gameRule h3,
+    .attention h3,
+    .point h3 {
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .ninnkyaku-NoP h3 {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .kyougiShousai-container {
+        width: 85%;
+        padding: 2rem 0;
+        border: 0.1rem solid #FEC838;
+    }
+
+    .ninnkyaku-summary,
+    .ninnkyaku-NoP,
+    .detaile,
+    .gameRule,
+    .attention,
+    .point {
+        margin: 3rem;
+    }
+
+    .ninnkyaku-summary h4 {
+        margin-top: 0;
+    }
+
+    .ninnkyaku-summary h4,
+    .detaile h4,
+    .gameRule h4,
+    .attention h4,
+    .point h4,
+    .ninnkyaku-NoP h4 {
+        margin-top: 0;
+        line-height: 1.8rem;
+        font-size: 1.1rem;
+    }
+
+    h3.kyougiSdhousai-cont-text {
+        font-size: 1.6rem;
+    }
+
+    h4.kyougiSdhousai-cont-text,
+    li {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        margin: 0;
+    }
+
+    .ninnkyaku-summary ul li,
+    .detaile ul li,
+    .gameRule ul li,
+    .attention ul li,
+    .point ul li,
+    .ninnkyaku-NoP ul li {
+        line-height: 1.8rem;
+    }
+
+    .league-title {
+        height: 5vh;
+        margin-top: 5rem;
+    }
+
+    .leagueTable-link {
+        width: 25%;
+    }
+
+    .league-title h3 {
+        font-size: 1.6rem;
+    }
+
+    .btn-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .back-btn {
+        margin-top: 4rem;
+        justify-content: center;
+        transition: filter 0.5s ease;
+    }
+
+    .back-btn-text {
+        font-size: 1.3rem;
+    }
+
+    .back-link {
+        width: auto;
+    }
+
+    .triangle {
+        border-top: 13px solid transparent;
+        border-bottom: 13px solid transparent;
+        border-right: 22px solid #FEC838;
+    }
+
+    .point h4:last-of-type {
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
 }

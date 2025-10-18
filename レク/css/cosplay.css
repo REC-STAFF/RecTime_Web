@@ -181,7 +181,7 @@ li {
   /* 
   h2     font-size: 2rem;
   h3     font-size: 1.3rem;
-  本文　font-size: 1rem; 
+  本文　font-size: 0.8rem; 
   */
 
   .cos-main {
@@ -197,7 +197,7 @@ li {
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 2rem 0 1rem 0;
   }
 
@@ -222,8 +222,8 @@ li {
   .cos-attention ul li,
   .cos-attention ol li,
   .waitingRoom li {
-    font-size: 0.9rem;
-    line-height: 1.6rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
     margin: 0.3rem 0;
   }
 
@@ -232,7 +232,7 @@ li {
   }
 
   .commentout{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .img {
@@ -260,9 +260,9 @@ li {
 
 
   /* 
-  h2     font-size: 2.6rem;
+  h2     font-size: 3rem;
   h3     font-size: 1.7rem;
-  本文　font-size: 1.3rem; */
+  本文　font-size: 1.1rem; */
   .cos-main {
     max-width: 90%;
     margin: 7rem auto;
@@ -271,13 +271,13 @@ li {
   }
 
   .cos-title h2 {
-    font-size: 2.3rem;
+    font-size: 3rem;
     margin-bottom: 9rem;
     /* h２topは.cos-mainで調整 */
   }
 
   h3 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 3rem 0 1.7rem 0;
     /* h3大会参加者以外の注意事項の
     topmarginのみはここで調整 */
@@ -306,7 +306,7 @@ li {
   .cos-attention ul li,
   .cos-attention ol li,
   .waitingRoom li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     margin: 0.5rem 0;
   }
