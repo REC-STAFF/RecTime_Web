@@ -41,19 +41,38 @@
 @media screen and (max-width: 680px) {
  
   .basyo-main {
-    max-width: 85%;
+    max-width: 90%;
     margin: 5rem auto;
   }
  
   .basyo-title h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
  
   .basyo-img,
   .basyo-img2{
     width: 100%;
-    height: 40vh;
-    margin-top: 5rem;
+    height: 30vh;
+    margin-top: 4rem;
   }
  
+}
+
+@media screen and (min-width:681px) and (max-width:1080px) {
+  .basyo-main {
+    max-width: 90%;
+    margin: 7rem auto;
+  }
+ 
+  .basyo-title h2 {
+    font-size: 3rem;
+  }
+ 
+  .basyo-img,
+  .basyo-img2{
+    /* width: 100%;
+    height: 50vh; */
+    margin-top: 7rem;
+  }
+
 }

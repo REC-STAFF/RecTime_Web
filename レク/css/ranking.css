@@ -1,12 +1,12 @@
 @charset "utf-8";
- 
+
 .ranking-main {
     max-width: 80%;
     margin: 10rem auto;
     /* height: 1000px; */
     /* background-color: aqua; */
 }
- 
+
 .ranking-title h2 {
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
@@ -14,13 +14,13 @@
     color: #FEC838;
     /* background-color: blueviolet; */
 }
- 
+
 .ranking-container {
     width: 85%;
     /* background-color: blanchedalmond; */
     margin: 0 auto;
 }
- 
+
 /* .ranking-link{
     display: block;
     width: 20%;
@@ -32,14 +32,14 @@
     margin-bottom: 20rem;
     margin-top: 10rem;
 } */
- 
+
 .ranking-kousin h4 {
     margin-top: 6rem;
     font-size: 1.2rem;
     text-align: center;
     color: #EEF3FF;
 }
- 
+
 .ranking-table {
     border: 0.07rem solid #FEC838;
     box-shadow: 0 0 40px rgba(254, 200, 56, 0.8), 0 0 30px rgba(254, 200, 56, 0.7), 0 0 50px rgba(254, 200, 56, 0.6);
@@ -52,13 +52,13 @@
     color: #EEF3FF;
     margin-bottom: 20rem;
 }
- 
+
 .tableR {
     text-align: center;
     margin: 0 auto;
     border-collapse: collapse;
 }
- 
+
 .tableR td {
     width: 15rem;
     height: 7rem;
@@ -66,13 +66,13 @@
     border-bottom: 0.1rem solid #FEC838;
     /*セルとセルの間を消したい*/
 }
- 
- 
+
+
 .under-third {
     color: #FEC838;
 }
- 
-@media screen and (max-width: 680px) {
+
+/* @media screen and (max-width: 680px) {
  
   .ranking-main {
     max-width: 85%;
@@ -80,13 +80,115 @@
   }
  
   .ranking-title h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 8rem;
   }
  
   .ranking-kousin h4{
     margin-bottom: 14rem;
+    font-size: 0.8rem;
   }
  
 }
- 
+  */
+
+@media screen and (max-width: 680px) {
+
+
+    .ranking-main {
+        max-width: 90%;
+        margin: 5rem auto;
+    }
+
+    .ranking-container {
+        width: 86%;
+        /* background-color: blanchedalmond; */
+        margin: 0 auto;
+    }
+
+
+    .ranking-title h2 {
+        font-size: 2rem;
+    }
+
+    .ranking-kousin h4 {
+        font-size: 0.8rem;
+        margin-top: 2.5rem;
+    }
+
+
+
+    .ranking-table {
+        width: 90%;
+        /* 左右の内側余白をしっかり確保（ここが“くっつく”対策の肝） */
+        padding: 1.5rem 0 3rem 0;
+        font-size: 1.05rem;
+        margin-top: 3rem;
+        margin-bottom: 8rem;
+    }
+
+
+    .tableR td {
+        width: auto;
+        height: 3rem;
+        padding: 1rem 0;
+    }
+
+    .under-third {
+        font-size: 1.3rem;
+    }
+
+
+    .tableR {
+        table-layout: fixed;
+    }
+
+    /* レイアウト安定 */
+    .tableR td {
+        padding: .3rem 0.5rem;
+    }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1080px) {
+
+    .ranking-main {
+        max-width: 80%;
+        margin: 7rem auto;
+    }
+
+    .ranking-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .ranking-title h2 {
+        font-size: 3rem;
+    }
+
+    .ranking-kousin h4 {
+        font-size: 1.1rem;
+        margin-top: 3.5rem;
+    }
+
+    .ranking-table {
+        width: 70%;
+        padding: 4rem 1rem 6rem 1rem;
+        font-size: 1.6rem;
+        margin-top: 4rem;
+        margin-bottom: 12rem;
+    }
+
+    .tableR {
+        table-layout: fixed;
+    }
+
+    .tableR td {
+        width: auto;
+        height: 5rem;
+        padding: 1rem 1rem;
+    }
+
+    .under-third {
+        font-size: 1.6rem;
+    }
+}

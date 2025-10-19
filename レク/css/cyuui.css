@@ -36,11 +36,11 @@
 }
 
 /* .about-day,.about-cance一番上と下は広めに調整 */
-.about-day{
+.about-day {
     margin-top: 10rem;
 }
 
-.about-cancel{
+.about-cancel {
     margin-bottom: 10rem;
 }
 
@@ -54,7 +54,7 @@
 
 .event-guidelines li {
     font-size: 1.3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
     list-style-type: disc;
     list-style-position: inside;
     padding-left: 1.2em;
@@ -78,11 +78,17 @@
 
     .caution-title h2 {
         font-size: 2rem;
+        margin-bottom: 6rem;
     }
 
     .event-guidelines h3 {
         font-size: 1.2rem;
-        padding: 3rem 0 1.5rem 0;
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .about-day {
+        margin-top: 0.5rem;
     }
 
     .about-day ul li {
@@ -100,6 +106,65 @@
         font-size: 0.8rem;
         line-height: 1.4rem;
         margin: 0;
+        padding-bottom: 0.2rem;
     }
 
+    .event-guidelines ul {
+        margin: 1rem auto;
+        width: 90%;
+    }
+
+    .about-cancel {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:1080px) {
+
+    .caution-main {
+        max-width: 85%;
+        margin: 7rem auto;
+    }
+
+    .caution-title h2 {
+        font-size: 3rem;
+        margin-bottom: 9rem;
+    }
+
+    .event-guidelines h3 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 4rem;
+    }
+
+    .about-day {
+        margin-top: 5rem;
+    }
+
+    .about-day ul li {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        margin-left: 0;
+    }
+
+    .event-guidelines {
+        width: 90%;
+        padding: 1.2rem;
+    }
+
+    .event-guidelines ul li {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        margin: 0;
+        padding-bottom: 0.4rem;
+    }
+
+    .event-guidelines ul {
+        margin: 3rem auto;
+        width: 85%;
+    }
+
+    .about-cancel {
+        margin-bottom: 5rem;
+    }
 }

@@ -180,7 +180,7 @@ li {
 
   /* 
   h2     font-size: 2rem;
-  h3     font-size: 1.3rem;
+  h3     font-size: 1.2rem;
   本文　font-size: 0.8rem; 
   */
 
@@ -193,7 +193,7 @@ li {
 
   .cos-title h2 {
     font-size: 2rem;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
   }
 
   h3 {
@@ -307,7 +307,7 @@ li {
   .cos-attention ol li,
   .waitingRoom li {
     font-size: 1.1rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
     margin: 0.5rem 0;
   }
 
