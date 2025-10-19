@@ -485,7 +485,7 @@ h2 {
   }
 
   .movie-link {
-    width: 90%;
+    width: 100%;
     padding: 1rem 0 1rem 0;
     display: flex;
     justify-content: space-between;
@@ -493,7 +493,7 @@ h2 {
   }
 
   .movie-link video {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -547,7 +547,7 @@ h2 {
   .event-cards {
     width: 60vw;
     /* height: 40vh; */
-    margin: 1rem auto;
+    margin: 0;
   }
 
   .cards-text h2 {
@@ -573,6 +573,7 @@ h2 {
 
   .access h2 {
     font-size: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .access-inner {
@@ -584,7 +585,7 @@ h2 {
 
   .map {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1/ 1;
     /* ←これで縦：横 = 4:3に固定 */
     height: auto;
     /* 高さ指定は削除 or 自動に */
@@ -602,7 +603,7 @@ h2 {
   .map-text {
     width: 80%;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0;
     line-height: 1.4;
     text-align: left;
   }
@@ -621,8 +622,8 @@ h2 {
   }
 
   .map-train {
-    margin-top: 0rem;
-    line-height: 1.4;
+    width: 0;
+    height: 0;
     text-align: left;
   }
 
@@ -771,8 +772,9 @@ h2 {
 
   /* 動画 */
   .movie-section {
-    width: 90%;
+    width: 80%;
     margin: 5rem auto;
+    padding-top: 3rem;
   }
 
   .movie-title {
@@ -793,7 +795,10 @@ h2 {
 
   /* 当日の詳細 */
 
-
+  .info-section {
+    margin: 3rem auto;
+    padding-top: 5rem;
+  }
 
   .event-cards h2 {
     color: #fec838;
@@ -826,9 +831,9 @@ h2 {
   /* マップ */
 
   .access {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 6rem 0 12rem;
+    padding: 5rem 0 12rem;
   }
 
   .access h2 {
@@ -836,37 +841,44 @@ h2 {
     padding-bottom: 2rem;
   }
 
+  /* widthは  .access-inner　width: 94%;
+    padding: 3%×２（左右）で100％
+    .map 60%;  .map-text 32% .access-inner  gap: 2%;
+    で.access-inner の width: 94%にそろえる*/
+
   .access-inner {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 2%;
+    width: 94%;
+    padding: 3%;
   }
 
+
   .map {
-    width: 50%;
-    /* ←60% → 70% に拡大 */
+    width: 60%;
     aspect-ratio: 4 / 3;
     height: auto;
   }
 
   .map iframe {
-    width: 100%;
+
     height: 100%;
     border: 0;
+    margin: auto;
   }
 
   .map-text {
-    width: 28%;
-    /* ←30%から少し細くしてバランスを取る */
-    text-align: left;
+    width: 32%;
     color: #eef3ff;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    margin: 0;
   }
 
   .map-text p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     padding: 0.3rem;
     line-height: 1.4;
   }
@@ -877,13 +889,13 @@ h2 {
   }
 
   .map-text h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
 
   .map-text p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     padding: 0.3rem;
     line-height: 1.4;
   }
