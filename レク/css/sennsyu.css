@@ -188,22 +188,21 @@ input:checked+.trigger+.panel {
     padding-top: 0;
   }
 
-  .trigger .title{
+  .trigger .title {
     font-size: 17px;
   }
 
-  .trigger .subtitle{
+  .trigger .subtitle {
     font-size: 13px;
   }
 
-  .panel li{
-    font-size:10px;
-    font-weight: bold;
+  .panel li {
+    font-size: 13px;
   }
 
 }
 
-@media screen and (min-width: 681px) and (max-width: 1080px){
+@media screen and (min-width: 681px) and (max-width: 1080px) {
 
   .sennsyu-main {
     max-width: 80%;
@@ -225,17 +224,16 @@ input:checked+.trigger+.panel {
     padding-top: 0;
   }
 
-  .trigger .title{
+  .trigger .title {
     font-size: 18.5px;
   }
 
-  .trigger .subtitle{
+  .trigger .subtitle {
     font-size: 13.5px;
   }
 
-  .panel li{
-    font-size: 11px;
-    font-weight: bold;
+  .panel li {
+    font-size: 13.5px;
   }
 
 }
