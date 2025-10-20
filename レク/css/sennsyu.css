@@ -1,26 +1,26 @@
 @charset "utf-8";
- 
+
 .sennsyu-main {
   max-width: 80%;
   margin: 10rem auto;
   /* background-color: aqua; */
 }
- 
-.sennsyu-title h2{
-    color: #FEC838;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    text-align: center;
-    font-size: 4rem;
-    /* background-color: blueviolet; */
+
+.sennsyu-title h2 {
+  color: #FEC838;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 4rem;
+  /* background-color: blueviolet; */
 }
- 
-.sennsyu-text-box h4{
-    margin-top: 6rem;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #EEF3FF;
+
+.sennsyu-text-box h4 {
+  margin-top: 6rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #EEF3FF;
 }
- 
+
 :root {
   --bg-header: #171269;
   /* 見出し背景色 */
@@ -29,7 +29,7 @@
   --text-sub: #f5f6fc;
   --radius: 12px;
 }
- 
+
 .accordion {
   /* width: min(600px, 95%); */
   width: 60%;
@@ -39,7 +39,7 @@
   margin: 0 auto;
   padding-top: 6rem;
 }
- 
+
 .item {
   border-radius: 9px;
   overflow: hidden;
@@ -53,7 +53,7 @@
     0 0 10px rgba(254, 200, 56, 0.6),
     0 0 20px rgba(254, 200, 56, 0.4);
 }
- 
+
 /* 見出し部分 */
 .trigger {
   display: flex;
@@ -67,28 +67,45 @@
   width: 85%;
   margin: 0 auto;
 }
- 
+
 .trigger .title {
   font-size: 20px;
   border-bottom: 2px solid #FEC838;
   padding: .3rem;
   color: #FEC838;
 }
- 
+
 .trigger .subtitle {
   font-size: 14px;
   font-weight: normal;
   margin-top: 8px;
+  margin-left: .3rem;
   color: #EEF3FF;
 }
- 
+
 /* 矢印アイコン */
-.trigger::after {
+.trigger::before {
+  position: absolute;
+  z-index: 1;
   content: "";
-  border-bottom: solid 2px #FEC838;
-  border-right: solid 2px #FEC838;
-  width: 13px;
-  height: 13px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FEC838;
+  position: absolute;
+  right: 23px;
+  top: 61%;
+  transition: transform 0.5s;
+}
+
+.trigger::after {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  border-bottom: solid 2px #171269;
+  border-right: solid 2px #171269;
+  width: 9px;
+  height: 9px;
   transform: rotate(45deg);
   position: absolute;
   right: 30px;
@@ -96,7 +113,7 @@
   transition: transform 0.5s;
   font-size: 18px;
 }
- 
+
 /* 展開部分 */
 .panel {
   max-height: 0;
@@ -105,10 +122,11 @@
   background: #100D4A;
   color: var(--text-main);
   transition: max-height 0.5s ease;
-  border-top: 1.5px solid #FEC838;
-  border-radius: 9px;
+  /* border-radius: 9px; */
+  border-top: 1.5px solid transparent;
+  transition: all 0.5s;
 }
- 
+
 .panel ul {
   width: 85%;
   list-style: none;
@@ -116,41 +134,106 @@
   padding: 16px 20px;
   margin: 0 auto;
 }
- 
+
 .panel li {
   padding: 6px 0;
   border-bottom: 1px solid #ffb400;
   color: #EEF3FF;
+  font-size: 13px;
 }
- 
+
+.panel li a {
+  color: #EEF3FF;
+  transition: color 0.25s ease;
+}
+
+.panel li a:hover {
+  color: #F7D68C;
+}
+
 .panel li:last-child {
   border-bottom: none;
 }
- 
+
 /* 開いたとき */
 input:checked+.trigger::after {
   transform: translateY(50%) rotate(-135deg);
+  top: 64%;
 }
- 
+
 input:checked+.trigger+.panel {
-  max-height: 900px;
+  max-height: 1200px;
+  border-top: 1.5px solid #FEC838;
 }
- 
+
 @media screen and (max-width: 680px) {
- 
+
   .sennsyu-main {
-    max-width: 85%;
+    max-width: 90%;
     margin: 5rem auto;
   }
- 
+
   .sennsyu-title h2 {
-    font-size: 2.5rem;
-    margin-bottom: 8rem;
+    font-size: 2rem;
   }
- 
-  .sennsyu-text-box h4{
-    margin-bottom: 14rem;
+
+  .sennsyu-text-box h4 {
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
   }
- 
+
+  .accordion {
+    width: 80%;
+    margin-top: 3rem;
+    padding-top: 0;
+  }
+
+  .trigger .title{
+    font-size: 17px;
+  }
+
+  .trigger .subtitle{
+    font-size: 13px;
+  }
+
+  .panel li{
+    font-size: 9px;
+  }
+
 }
- 
+
+@media screen and (min-width: 681px) and (max-width: 1080px){
+
+  .sennsyu-main {
+    max-width: 80%;
+    margin: 7rem auto;
+  }
+
+  .sennsyu-title h2 {
+    font-size: 3rem;
+  }
+
+  .sennsyu-text-box h4 {
+    font-size: 1.1rem;
+    margin-top: 3.5rem;
+  }
+
+  .accordion {
+    width: 70%;
+    margin-top: 4rem;
+    padding-top: 0;
+  }
+
+  .trigger .title{
+    font-size: 18.5px;
+  }
+
+  .trigger .subtitle{
+    font-size: 13.5px;
+  }
+
+  .panel li{
+    font-size: 11px;
+  }
+
+}
