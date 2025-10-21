@@ -352,35 +352,35 @@ h2 {
   }
 
   .hero-logo {
-    width: 15vw;
-    top: 5%;
+    width: 30vw;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-title {
-    width: 50vw;
+    width: 85vw;
     height: auto;
-    top: 25%;
+    top: 29%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-mo-date {
     position: absolute;
-    width: 50vw;
+    width: 65vw;
     height: auto;
-    top: 55%;
+    top: 54%;
     left: 50%;
     transform: translateX(-50%);
     /* z-index: 10; */
   }
 
   .hero-place {
-    width: 30vw;
+    width: 50vw;
     /* height: 20vh;   */
     /* height: 100vh; */
-    top: 90%;
+    top: 78%;
     left: 50%;
     transform: translateX(-50%);
   }

@@ -194,6 +194,7 @@ input:checked+.trigger+.panel {
 
   .trigger .subtitle {
     font-size: 13px;
+    padding-top: 5px;
   }
 
   .panel li {
@@ -230,6 +231,7 @@ input:checked+.trigger+.panel {
 
   .trigger .subtitle {
     font-size: 13.5px;
+    padding-top: 5px;
   }
 
   .panel li {
