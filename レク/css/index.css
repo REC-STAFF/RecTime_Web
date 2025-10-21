@@ -353,7 +353,7 @@ h2 {
 
   .hero-logo {
     width: 30vw;
-    top: 10%;
+    top: 11%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -361,7 +361,7 @@ h2 {
   .hero-title {
     width: 85vw;
     height: auto;
-    top: 29%;
+    top: 32%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -370,7 +370,7 @@ h2 {
     position: absolute;
     width: 65vw;
     height: auto;
-    top: 54%;
+    top: 57%;
     left: 50%;
     transform: translateX(-50%);
     /* z-index: 10; */
@@ -380,7 +380,7 @@ h2 {
     width: 50vw;
     /* height: 20vh;   */
     /* height: 100vh; */
-    top: 78%;
+    top: 81%;
     left: 50%;
     transform: translateX(-50%);
   }
