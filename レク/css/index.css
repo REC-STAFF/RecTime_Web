@@ -638,58 +638,58 @@ h2 {
   }
 
   /* top画像の装飾 */
+
   .hero-area-pc {
-    position: relative;
-    height: 100vh;
+    display: none !important;
+  }
+
+  .hero-area-mo {
     display: block;
-  }
-
-  .hero-pc {
-    position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
   }
 
-  .hero-overlay {
+  .hero-mo {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    background-size: cover;
   }
 
   .hero-logo {
-    width: 25vw;
-    top: 12%;
+    width: 24vw;
+    top: 11%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-title {
-    width: 100vw;
+    width: 75vw;
     height: auto;
-    top: 19%;
+    top: 31%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hero-mo-date {
+    position: absolute;
+    width: 56vw;
+    height: auto;
+    top: 57%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .hero-place {
-    width: 100vw;
-    top: 46%;
+    width: 44vw;
+    top: 81%;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .hero-date {
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    top: 46%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .hero-area-mo {
+  /* .hero-area-mo {
     display: none;
-  }
+  } */
 
   h2 {
     font-size: 3rem;
