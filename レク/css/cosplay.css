@@ -37,6 +37,9 @@
   transition: all 0.3s ease;
   /* ← なめらかに変化 */
   color: #0A094C;
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .cos-link-result:hover {
@@ -52,7 +55,7 @@
   border: 0.1rem solid #FEC838;
   background-color: rgba(0, 5, 54, 0.7);
   margin: 0 auto;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .cos-summary {
@@ -163,6 +166,9 @@ li {
   transition: all 0.3s ease;
   /* ← なめらかに変化 */
   color: #0A094C;
+  font-family: "source-han-sans-japanese", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .cos-link-sankasha:hover {
@@ -231,7 +237,7 @@ li {
     margin-top: 0;
   }
 
-  .commentout{
+  .commentout {
     font-size: 0.7rem;
   }
 
@@ -244,15 +250,15 @@ li {
   .cos-link-result,
   .cos-link-sankasha {
     width: 65%;
-    font-size: 1.2rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
   }
 
-  /* .last-margin {
+  .last-margin {
     margin-bottom: 3rem;
-  } */
+  }
 }
 
 
@@ -326,7 +332,7 @@ li {
   .cos-link-sankasha {
     width: 50%;
     font-size: 1.4rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-bottom: 6rem;
     padding: 1.2rem;
   }
