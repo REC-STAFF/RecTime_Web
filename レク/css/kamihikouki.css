@@ -209,6 +209,18 @@ li {
     line-height: 2.2rem;
 }
 
+.kamihikouki-kinyuu{
+    margin: 0 auto;
+    /* margin-top: 7rem; */
+    width: 85%;
+    height: 65vh;
+    /* background-color: cadetblue; */
+    background-image: url(../images/kamihikouki-kinyuu.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* .gameRule ol li {
     list-style-type: decimal;
     list-style-position: outside;
@@ -355,6 +367,14 @@ li {
 
     .kamihikoukibasyo-img {
         margin-top: 2.8rem;
+    }
+
+    .kamihikouki-kinyuu{
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        object-fit: contain;
+        margin-top: 1.8rem;
     }
 
     .kyougiShousai-title h3,
@@ -505,6 +525,14 @@ li {
         height: auto;
         object-fit: contain;
         margin-top: 5rem;
+    }
+
+    .kamihikouki-kinyuu{
+        width: 90%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+        object-fit: contain;
+        margin-top: 3rem;
     }
 
     .kamihikoukibasyo-img {
