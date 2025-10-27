@@ -1,18 +1,18 @@
 @charset "utf-8";
 
-.caution-main {
+.appli-main {
     max-width: 80%;
     margin: 10rem auto;
 }
 
 /* タイトルの装飾 */
 
-.caution-title {
+.appli-title {
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.4) 3px 3px 5px;
 }
 
-.caution-title h2 {
+.appli-title h2 {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 13rem;
@@ -38,9 +38,6 @@
 /* .about-day,.about-cance一番上と下は広めに調整 */
 .about-day {
     margin-top: 10rem;
-}
-
-.about-cancel {
     margin-bottom: 10rem;
 }
 
@@ -61,19 +58,27 @@
     text-indent: -1.2em;
 }
 
-/* コスプレへのリンクの装飾 */
-.cos-link {
+.sp-br {
+    display: none;
+}
+
+.center-link{
+    text-align: center;
+}
+
+.url-color{
     color: #F7D68C;
+    text-align: center;
 }
 
 @media screen and (max-width: 680px) {
 
-    .caution-main {
+    .appli-main {
         max-width: 85%;
         margin: 5rem auto;
     }
 
-    .caution-title h2 {
+    .appli-title h2 {
         font-size: 2rem;
         margin-bottom: 6rem;
     }
@@ -86,6 +91,7 @@
 
     .about-day {
         margin-top: 0.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .about-day ul li {
@@ -114,16 +120,20 @@
     .about-cancel {
         margin-bottom: 3rem;
     }
+
+    .sp-br {
+        display: inline;
+    }
 }
 
 @media screen and (min-width:681px) and (max-width:1080px) {
 
-    .caution-main {
+    .appli-main {
         max-width: 85%;
         margin: 7rem auto;
     }
 
-    .caution-title h2 {
+    .appli-title h2 {
         font-size: 3rem;
         margin-bottom: 9rem;
     }
