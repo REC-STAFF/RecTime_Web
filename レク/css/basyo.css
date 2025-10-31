@@ -51,12 +51,12 @@
     margin-top: 6rem;
     width: 85%;
     height: 75vh;
-    background-image: url(../images/map-2.jpg);
+    background-image: url(../images/map-2.jpg);  /**当日変える*/
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
- 
+
 @media screen and (max-width: 680px) {
  
   .basyo-main {
