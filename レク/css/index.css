@@ -936,6 +936,34 @@ h2 {
 
   /* </カードに対しての装飾> */
 
+  .schedule-section {
+    width: 80%;
+    margin-top: 0;
+    padding-top: 5rem;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+  }
+
+  .schedule-title {
+    color: #fec838;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    border-bottom: #fec838 solid 1px;
+  }
+
+  .schedule-flex {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #fec838 solid 1px;
+  }
+
+  .schedule-img {
+    width: 90%;
+    height: 30vh;
+    margin: 0 auto;
+  }
 
   /* マップ */
 
