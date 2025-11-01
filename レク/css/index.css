@@ -938,10 +938,11 @@ h2 {
 
   .schedule-section {
     width: 80%;
-    margin-top: 0;
-    padding-top: 5rem;
+    /* margin-top: 0; */
+    padding-top: 4rem;
+    /* padding-top: 0; */
     margin-bottom: 0;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
 
   .schedule-title {
