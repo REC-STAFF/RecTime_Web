@@ -124,7 +124,7 @@
 @media screen and (max-width: 680px) {
 
   .kyougi-main {
-    max-width: 90%;
+    max-width: 80%;
     margin: 5rem auto;
     /* background-color: aqua; */
   }
@@ -193,7 +193,7 @@
 
 @media screen and (min-width:681px) and (max-width:1080px) {
   .kyougi-main {
-    max-width: 90%;
+    max-width: 80%;
     margin: 7rem auto;
     /* background-color: aqua; */
   }
@@ -211,8 +211,13 @@
     background-repeat: no-repeat;
   }
 
+.info-section{
+  width: 100%;
+}
+
 
   .cards-row {
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     /* 1行目は3列 */
     gap: 30px;

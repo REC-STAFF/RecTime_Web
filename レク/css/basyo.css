@@ -1,128 +1,135 @@
 @charset "utf-8";
- 
-.basyo-main{
-    max-width: 80%;
-    margin: 10rem auto;
-    /* background-color: aqua; */
-}
- 
-.basyo-title{
-    text-align: center;
-}
- 
-.basyo-title h2{
-    font-size: 4rem;
-    color: #FEC838;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-    margin-bottom: 13rem;
+
+.basyo-main {
+  max-width: 80%;
+  margin: 10rem auto;
+  /* background-color: aqua; */
 }
 
-.basyo-title h3{
-    font-size: 2.5rem;
-    color: #EEF3FF;
-    margin-top: 13rem;
-    margin-bottom: 6rem;
+.basyo-title {
+  text-align: center;
 }
 
-.zaseki{
-    margin: 0 auto;
-    /* margin-top: 16.5rem; */
-    width: 85%;
-    height: 75vh;
-    background-image: url(../images/zaseki.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.basyo-title h2 {
+  font-size: 4rem;
+  color: #FEC838;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 13rem;
 }
- 
-.basyo-img{
-    margin: 0 auto;
-    /* margin-top: 16.5rem; */
-    width: 85%;
-    height: 75vh;
-    background-image: url(../images/map-1.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+.basyo-title h3 {
+  font-size: 2.5rem;
+  color: #EEF3FF;
+  margin-top: 13rem;
+  margin-bottom: 6rem;
 }
- 
-.basyo-img2{
-    margin: 0 auto;
-    margin-top: 6rem;
-    width: 85%;
-    height: 75vh;
-    background-image: url(../images/map-2.jpg);  /**当日変える*/
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+.zaseki {
+  margin: 0 auto;
+  /* margin-top: 16.5rem; */
+  width: 85%;
+  height: 75vh;
+  background-image: url(../images/zaseki.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.basyo-img {
+  margin: 0 auto;
+  /* margin-top: 16.5rem; */
+  width: 85%;
+  height: 75vh;
+  background-image: url(../images/map-1.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.basyo-img2 {
+  margin: 0 auto;
+  margin-top: 6rem;
+  width: 85%;
+  height: 75vh;
+  background-image: url(../images/map-2.jpg);
+  /**当日変える*/
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 680px) {
- 
+
   .basyo-main {
-    max-width: 90%;
+    max-width: 80%;
     margin: 5rem auto;
   }
- 
+
   .basyo-title h2 {
     font-size: 2rem;
     margin-bottom: 6rem;
   }
 
-  .basyo-title h3{
+  .basyo-title h3 {
     font-size: 1.2rem;
     margin-top: 6rem;
     margin-bottom: 1.5rem;
   }
 
-  .zaseki{
+  .zaseki {
+    aspect-ratio: 16/9;
+    height: 100%;
     width: 100%;
-    height: 30vh;
-  }
- 
-  .basyo-img{
-    width: 100%;
-    height: 30vh;
   }
 
-  .basyo-img2{
+  .basyo-img {
     width: 100%;
-    height: 30vh;
-    margin-top: 1.5rem;
+    height: 100%;
+    aspect-ratio: 16/9;
   }
- 
+
+  .basyo-img2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5rem;
+    aspect-ratio: 16/9;
+  }
+
 }
 
 @media screen and (min-width:681px) and (max-width:1080px) {
   .basyo-main {
-    max-width: 90%;
+    max-width: 80%;
     margin: 7rem auto;
   }
- 
+
   .basyo-title h2 {
     font-size: 3rem;
     margin-bottom: 9rem;
   }
 
-  .basyo-title h3{
+  .basyo-title h3 {
     font-size: 2rem;
     margin-top: 9rem;
     margin-bottom: 3rem;
   }
 
-  .zaseki{
+  .zaseki {
     width: 100%;
-    height: 35vh;
+    height: 100%;
+    aspect-ratio: 16/9;
   }
 
-  .basyo-img{
+  .basyo-img {
     width: 100%;
-    height: 35vh;
+    height: 100%;
+    aspect-ratio: 16/9;
   }
 
-  .basyo-img2{
+  .basyo-img2 {
     width: 100%;
-    height: 35vh;
+    height: 100%;
+    aspect-ratio: 16/9;
     margin-top: 3rem;
   }
 
