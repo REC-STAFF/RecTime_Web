@@ -283,8 +283,8 @@ h2 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 85%;
-  height: 65vh;
+  width: 94%;
+ aspect-ratio: 16/9;
   margin: 0 auto;
 }
 
@@ -529,7 +529,7 @@ h2 {
 
   /* 動画 */
   .movie-section {
-    width: 90%;
+    width: 80%;
     aspect-ratio: 16 / 9;
     height: auto;
     object-fit: contain;
@@ -629,7 +629,7 @@ h2 {
   /* </カードに対しての装飾> */
 
   .schedule-section {
-    width: 90%;
+    width: 80%;
     aspect-ratio: 16 / 9;
     height: auto;
     object-fit: contain;
@@ -657,8 +657,7 @@ h2 {
   }
 
   .schedule-img {
-    width: 89%;
-    height: 25vh;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -957,13 +956,11 @@ h2 {
     padding: 2rem 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: #fec838 solid 1px;
+    border-bottom: #fec838 solid 3%;
   }
 
   .schedule-img {
-    width: 90%;
-    height: 30vh;
-    margin: 0 auto;
+    width: 94%;
   }
 
   /* マップ */
