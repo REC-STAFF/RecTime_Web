@@ -191,7 +191,7 @@ li {
 }
 
 .gameRule {
-    margin: 5rem 7rem;
+    margin: 5rem 7rem 0rem 7rem;
 }
 
 .gameRule h3 {
@@ -228,7 +228,7 @@ li {
 }  */
 
 .attention {
-    margin: 5rem 7rem;
+    margin: 3rem 7rem 5rem 7rem;
 }
 
 .attention h3 {

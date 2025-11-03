@@ -145,6 +145,25 @@ li {
   font-size: 1.3rem;
 }
 
+.cosplay-satuei {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 65%;
+  height: 55vh;
+  background-image: url(../images/cosplay-satuei.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cos-attention h4 {
+  margin: 0 7rem;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  color: #EEF3FF;
+  line-height: 1.8;
+}
+
 .cos-link-sankasha {
   display: block;
   width: 42%;
@@ -181,6 +200,16 @@ li {
 .commentout {
   font-size: 1.1rem;
 }
+
+.sp-br1 {
+  display: none;
+}
+
+.sp-br2 {
+  display: none;
+}
+
+
 
 @media screen and (max-width: 680px) {
 
@@ -223,6 +252,7 @@ li {
   }
 
   .cos-summary h4,
+  .cos-attention h4,
   .cos-NoP h4,
   .judge ul li,
   .cos-attention ul li,
@@ -256,9 +286,27 @@ li {
     padding: 1rem;
   }
 
+  .cosplay-satuei {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: contain;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+
   .last-margin {
     margin-bottom: 3rem;
   }
+
+  .sp-br1 {
+    display: inline;
+  }
+
+  .sp-br2 {
+    display: none;
+  }
+
 }
 
 
@@ -307,6 +355,7 @@ li {
   }
 
   .cos-summary h4,
+  .cos-attention h4,
   .cos-NoP h4,
   .judge ul li,
   .cos-attention ul li,
@@ -337,7 +386,25 @@ li {
     padding: 1.2rem;
   }
 
+  .cosplay-satuei {
+    width: 90%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: contain;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   /* .last-margin {
     margin-bottom: 4rem;
   } */
+
+  .sp-br1 {
+    display: none;
+  }
+
+  .sp-br2 {
+    display: inline;
+  }
+
 }
