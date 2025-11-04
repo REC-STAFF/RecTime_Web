@@ -78,6 +78,21 @@ h2 {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
+.link-font {
+  margin: 5rem auto;
+  padding-top: 11rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.link-font a {
+  color: #FEC838;
+  text-shadow:
+    0 0 4px rgba(254, 200, 56, 0.8),
+    0 0 10px rgba(254, 200, 56, 0.7),
+    0 0 20px rgba(254, 200, 56, 0.6);
+}
+
 /* 開催方針 */
 .event-policy {
   width: 80%;
@@ -291,7 +306,7 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   width: 94%;
- aspect-ratio: 16/9;
+  aspect-ratio: 16/9;
   margin: 0 auto;
 }
 
@@ -449,6 +464,13 @@ h2 {
   h2 {
     font-size: 2rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .link-font {
+    width: 80%;
+    margin: 2rem auto;
+    padding-top: 5rem;
+    font-size: 1.6rem;
   }
 
   /* 開催方針 */
@@ -797,6 +819,13 @@ h2 {
   h2 {
     font-size: 3rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .link-font {
+    width: 80%;
+    margin: 4rem auto;
+    padding-top: 6rem;
+    font-size: 2.5rem;
   }
 
   /* 開催方針 */
