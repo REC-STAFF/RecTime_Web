@@ -51,11 +51,17 @@
   margin-top: 6rem;
   width: 85%;
   height: 75vh;
-  background-image: url(../images/map-2.jpg);
+  background-image: url(../images/map-2-toujitu.jpg);
   /**当日変える*/
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+h4 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #F7D68C;
 }
 
 @media screen and (max-width: 680px) {
@@ -93,6 +99,11 @@
     height: 100%;
     margin-top: 2.5rem;
     aspect-ratio: 16/9;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    margin-top: 1.3rem;
   }
 
 }
