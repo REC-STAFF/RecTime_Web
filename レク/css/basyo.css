@@ -62,6 +62,7 @@ h4 {
   font-size: 1.7rem;
   text-align: center;
   color: #F7D68C;
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 680px) {
@@ -142,6 +143,11 @@ h4 {
     height: 100%;
     aspect-ratio: 16/9;
     margin-top: 3rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
   }
 
 }
