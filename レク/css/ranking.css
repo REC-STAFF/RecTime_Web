@@ -123,7 +123,7 @@
         width: 90%;
         /* 左右の内側余白をしっかり確保（ここが“くっつく”対策の肝） */
         padding: 1.5rem 0 3rem 0;
-        font-size: 1.05rem;
+        font-size: 0.8rem;
         margin-top: 3rem;
         margin-bottom: 8rem;
     }
@@ -148,6 +148,7 @@
     .tableR td {
         padding: .3rem 0.5rem;
     }
+
 }
 
 @media screen and (min-width: 681px) and (max-width: 1080px) {
